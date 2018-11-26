@@ -1,0 +1,67 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login Test Suite,,,2018-11-26 17:59:20,2018-11-26 18:01:36,2m - 16.147s,FAILED
+,,,,,,
+Test Cases/Tests/Log In/TC-SIN-001 Check for empty username and password,,,2018-11-26 17:59:21,2018-11-26 18:00:01,40.285s,FAILED
+Start listener action : beforeTestcase,,,2018-11-26 17:59:21,2018-11-26 17:59:55,34.409s,FAILED
+callTestCase,,,2018-11-26 17:59:57,2018-11-26 17:59:59,1.977s,FAILED
+Start listener action : afterTestcase,,,2018-11-26 17:59:59,2018-11-26 17:59:59,0.074s,PASSED
+,,,,,,
+Test Cases/Tests/Log In/TC-SIN-002 Check for empty username,,,2018-11-26 18:00:01,2018-11-26 18:00:21,20.188s,FAILED
+Start listener action : beforeTestcase,,,2018-11-26 18:00:01,2018-11-26 18:00:15,13.828s,FAILED
+callTestCase,,,2018-11-26 18:00:15,2018-11-26 18:00:16,0.845s,FAILED
+callTestCase,,,2018-11-26 18:00:16,2018-11-26 18:00:17,1.271s,FAILED
+callTestCase,,,2018-11-26 18:00:17,2018-11-26 18:00:19,1.250s,FAILED
+setEncryptedText,,,2018-11-26 18:00:19,2018-11-26 18:00:19,0.276s,FAILED
+click,,,2018-11-26 18:00:19,2018-11-26 18:00:19,0.034s,FAILED
+verifyElementPresent,,,2018-11-26 18:00:19,2018-11-26 18:00:19,0.055s,FAILED
+takeScreenshot,,,2018-11-26 18:00:19,2018-11-26 18:00:19,0.023s,FAILED
+Start listener action : afterTestcase,,,2018-11-26 18:00:19,2018-11-26 18:00:19,0.025s,PASSED
+,,,,,,
+Test Cases/Tests/Log In/TC-SIN-003 Check for empty password,,,2018-11-26 18:00:21,2018-11-26 18:00:35,13.847s,FAILED
+Start listener action : beforeTestcase,,,2018-11-26 18:00:21,2018-11-26 18:00:31,9.677s,FAILED
+callTestCase,,,2018-11-26 18:00:32,2018-11-26 18:00:32,0.631s,FAILED
+callTestCase,,,2018-11-26 18:00:32,2018-11-26 18:00:32,0.166s,FAILED
+callTestCase,,,2018-11-26 18:00:32,2018-11-26 18:00:33,0.277s,FAILED
+setText,,,2018-11-26 18:00:33,2018-11-26 18:00:33,0.055s,FAILED
+click,,,2018-11-26 18:00:33,2018-11-26 18:00:33,0.030s,FAILED
+verifyElementPresent,,,2018-11-26 18:00:33,2018-11-26 18:00:33,0.059s,FAILED
+takeScreenshot,,,2018-11-26 18:00:33,2018-11-26 18:00:33,0.018s,FAILED
+Start listener action : afterTestcase,,,2018-11-26 18:00:33,2018-11-26 18:00:33,0.019s,PASSED
+,,,,,,
+Test Cases/Tests/Log In/TC-SIN-004 Check for invalid username,,,2018-11-26 18:00:35,2018-11-26 18:00:48,12.992s,FAILED
+Start listener action : beforeTestcase,,,2018-11-26 18:00:35,2018-11-26 18:00:44,9.146s,FAILED
+callTestCase,,,2018-11-26 18:00:45,2018-11-26 18:00:45,0.484s,FAILED
+callTestCase,,,2018-11-26 18:00:45,2018-11-26 18:00:45,0.155s,FAILED
+callTestCase,,,2018-11-26 18:00:45,2018-11-26 18:00:45,0.262s,FAILED
+setText,,,2018-11-26 18:00:45,2018-11-26 18:00:46,0.046s,FAILED
+setEncryptedText,,,2018-11-26 18:00:46,2018-11-26 18:00:46,0.156s,FAILED
+click,,,2018-11-26 18:00:46,2018-11-26 18:00:46,0.060s,FAILED
+verifyElementPresent,,,2018-11-26 18:00:46,2018-11-26 18:00:46,0.063s,FAILED
+takeScreenshot,,,2018-11-26 18:00:46,2018-11-26 18:00:46,0.021s,FAILED
+Start listener action : afterTestcase,,,2018-11-26 18:00:46,2018-11-26 18:00:46,0.031s,PASSED
+,,,,,,
+Test Cases/Tests/Log In/TC-SIN-005 Check for invalid password,,,2018-11-26 18:00:48,2018-11-26 18:01:00,12.086s,FAILED
+Start listener action : beforeTestcase,,,2018-11-26 18:00:48,2018-11-26 18:00:56,7.657s,FAILED
+callTestCase,,,2018-11-26 18:00:56,2018-11-26 18:00:57,0.688s,FAILED
+callTestCase,,,2018-11-26 18:00:57,2018-11-26 18:00:57,0.260s,FAILED
+callTestCase,,,2018-11-26 18:00:57,2018-11-26 18:00:58,0.299s,FAILED
+setText,,,2018-11-26 18:00:58,2018-11-26 18:00:58,0.070s,FAILED
+setEncryptedText,,,2018-11-26 18:00:58,2018-11-26 18:00:58,0.037s,FAILED
+click,,,2018-11-26 18:00:58,2018-11-26 18:00:58,0.043s,FAILED
+verifyElementPresent,,,2018-11-26 18:00:58,2018-11-26 18:00:58,0.090s,FAILED
+takeScreenshot,,,2018-11-26 18:00:58,2018-11-26 18:00:58,0.025s,FAILED
+Start listener action : afterTestcase,,,2018-11-26 18:00:58,2018-11-26 18:00:58,0.031s,PASSED
+,,,,,,
+Test Cases/Tests/Log In/TC-SIN-006 Check for valid username and password via stackexchange,,,2018-11-26 18:01:00,2018-11-26 18:01:36,35.550s,FAILED
+Start listener action : beforeTestcase,,,2018-11-26 18:01:00,2018-11-26 18:01:09,8.904s,FAILED
+callTestCase,,,2018-11-26 18:01:10,2018-11-26 18:01:10,0.676s,FAILED
+callTestCase,,,2018-11-26 18:01:10,2018-11-26 18:01:10,0.236s,FAILED
+callTestCase,,,2018-11-26 18:01:10,2018-11-26 18:01:11,0.229s,FAILED
+setText,,,2018-11-26 18:01:11,2018-11-26 18:01:12,1.056s,FAILED
+setEncryptedText,,,2018-11-26 18:01:12,2018-11-26 18:01:12,0.051s,FAILED
+click,,,2018-11-26 18:01:12,2018-11-26 18:01:12,0.030s,FAILED
+delay,,,2018-11-26 18:01:12,2018-11-26 18:01:22,10.049s,PASSED
+callTestCase,,,2018-11-26 18:01:22,2018-11-26 18:01:23,0.827s,FAILED
+callTestCase,,,2018-11-26 18:01:23,2018-11-26 18:01:23,0.018s,NOT_RUN
+callTestCase,,,2018-11-26 18:01:23,2018-11-26 18:01:33,10.781s,FAILED
+Start listener action : afterTestcase,,,2018-11-26 18:01:33,2018-11-26 18:01:33,0.014s,PASSED

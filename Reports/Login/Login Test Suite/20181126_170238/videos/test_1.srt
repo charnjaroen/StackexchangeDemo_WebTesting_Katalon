@@ -1,0 +1,140 @@
+1
+00:00:00,844 --> 00:00:00,847
+1. callTestCase
+
+2
+00:00:02,286 --> 00:00:02,295
+1. Statement - actual_pagetitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle()
+
+3
+00:00:02,414 --> 00:00:02,417
+5. verifyMatch
+
+4
+00:00:02,460 --> 00:00:02,462
+9. verifyElementVisible
+
+5
+00:00:02,755 --> 00:00:02,760
+13. verifyTextPresent
+
+6
+00:00:05,140 --> 00:00:05,143
+17. verifyTextPresent
+
+7
+00:00:07,411 --> 00:00:07,417
+21. verifyTextPresent
+
+8
+00:00:10,170 --> 00:00:10,173
+25. verifyElementPresent
+
+9
+00:00:10,489 --> 00:00:10,497
+29. verifyTextPresent
+
+10
+00:00:12,601 --> 00:00:12,604
+33. verifyTextPresent
+
+11
+00:00:14,593 --> 00:00:14,597
+37. verifyTextPresent
+
+12
+00:00:16,043 --> 00:00:16,050
+41. verifyTextPresent
+
+13
+00:00:17,686 --> 00:00:17,691
+45. verifyTextPresent
+
+14
+00:00:19,232 --> 00:00:19,235
+49. takeScreenshot
+
+15
+00:00:20,066 --> 00:00:20,068
+5. callTestCase
+
+16
+00:00:20,761 --> 00:00:20,763
+1. waitForElementVisible
+
+17
+00:00:21,043 --> 00:00:21,045
+5. click
+
+18
+00:00:23,899 --> 00:00:23,901
+9. callTestCase
+
+19
+00:00:24,751 --> 00:00:24,753
+1. Statement - actual_pagetitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle()
+
+20
+00:00:24,795 --> 00:00:24,799
+5. verifyMatch
+
+21
+00:00:24,836 --> 00:00:24,838
+9. verifyElementPresent
+
+22
+00:00:24,953 --> 00:00:24,955
+13. verifyElementPresent
+
+23
+00:00:25,073 --> 00:00:25,075
+17. verifyElementPresent
+
+24
+00:00:25,181 --> 00:00:25,183
+21. verifyElementPresent
+
+25
+00:00:25,259 --> 00:00:25,262
+25. verifyElementPresent
+
+26
+00:00:25,350 --> 00:00:25,352
+29. verifyTextPresent
+
+27
+00:00:25,635 --> 00:00:25,638
+33. takeScreenshot
+
+28
+00:00:26,076 --> 00:00:26,078
+13. click
+
+29
+00:00:59,515 --> 00:00:59,539
+17. verifyElementPresent
+
+30
+00:01:32,323 --> 00:01:32,324
+21. verifyElementPresent
+
+31
+00:02:04,644 --> 00:02:04,646
+25. takeScreenshot
+
+32
+00:02:05,085 --> 00:02:05,087
+1. closeBrowser
+
+33
+00:02:08,854 --> 00:02:08,856
+1. openBrowser
+
+34
+00:02:11,678 --> 00:02:11,680
+5. maximizeWindow
+
+35
+00:02:12,843 --> 00:02:12,844
+9. navigateToUrl
+

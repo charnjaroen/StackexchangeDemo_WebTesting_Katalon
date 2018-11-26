@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('Pages/01_Stack Exchage Homepage/To click the lo
 WebUI.callTestCase(findTestCase('Pages/02_Log In Page/The Log In Page is loaded successfully'), [('expected_pagetitle') : 'Log In - Meta Stack Exchange'
         , ('actual_pagetitle') : ''], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_forgot_submit-button'))
+WebUI.click(findTestObject('Test Objects/Pages/Page_Log In - Meta Stack Exchange/button_Log in'))
 
 WebUI.verifyElementPresent(findTestObject('Test Objects/Pages/Page_Log In - Meta Stack Exchange/Data Validation/div_Email cannot be empty.'), 
     GlobalVariable.element_timeout)

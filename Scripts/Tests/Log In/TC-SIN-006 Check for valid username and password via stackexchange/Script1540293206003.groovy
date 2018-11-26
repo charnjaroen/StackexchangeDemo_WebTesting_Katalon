@@ -27,7 +27,7 @@ WebUI.setText(findTestObject('Test Objects/Pages/Page_Log In - Meta Stack Exchan
 WebUI.setEncryptedText(findTestObject('Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Password_password'), findTestData(
         'testdata/stackexchange_user').getValue(2, 2))
 
-WebUI.click(findTestObject('Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_forgot_submit-button'))
+WebUI.click(findTestObject('Test Objects/Pages/Page_Log In - Meta Stack Exchange/button_Log in'))
 
 WebUI.delay(10)
 

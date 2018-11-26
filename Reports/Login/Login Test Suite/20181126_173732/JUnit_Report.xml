@@ -1,0 +1,1328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login Test Suite" time="313" tests="5" failures="1" errors="0">
+   <testsuite name="Login Test Suite" tests="5" failures="1" errors="0" time="313" timestamp="2018-11-26 17:37:35" hostname="Ronnachai C - DESKTOP-0PTJ8Q3.mshome.net" id="Test Suites/Login/Login Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732"/>
+         <property name="logFiles" value="C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228686024.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228692789.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228694406.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228719791.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228724567.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228725647.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228758808.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228791505.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228791909.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228819147.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228823687.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228825821.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228854370.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228858670.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228862109.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228890337.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228895658.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228899602.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228927704.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228931745.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228951347.png"/>
+         <property name="hostName" value="Ronnachai C - DESKTOP-0PTJ8Q3.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="192.168.77.177"/>
+         <property name="sessionId" value="a102e00a3a45e9870fd5874830096388"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Tests/Log In/TC-SIN-001 Check for empty username and password" classname="Test Cases/Tests/Log In/TC-SIN-001 Check for empty username and password" status="PASSED">
+         <system-out><![CDATA[2018-11-26 17:37:36 - [TEST_CASE][PASSED] - Test Cases/Tests/Log In/TC-SIN-001 Check for empty username and password: Test Cases/Tests/Log In/TC-SIN-001 Check for empty username and password
+
+2018-11-26 17:37:37 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://stackexchange.com/' successfully
+
+2018-11-26 17:37:37 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-26 17:37:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-26 17:37:43 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-26 17:37:45 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-26 17:37:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stackexchange.com/' successfully
+
+2018-11-26 17:37:49 - [MESSAGE][PASSED] - Navigate to 'https://stackexchange.com/' successfully
+
+2018-11-26 17:37:50 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-11-26 17:37:50 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully: Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully
+
+2018-11-26 17:37:51 - [TEST_STEP][PASSED] - Statement - actual_pagetitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Hot Questions - Stack Exchange'
+
+2018-11-26 17:37:51 - [MESSAGE][PASSED] - Current window's title is: 'Hot Questions - Stack Exchange'
+
+2018-11-26 17:37:51 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Hot Questions - Stack Exchange' and expected text 'Hot Questions - Stack Exchange' are matched 
+
+2018-11-26 17:37:51 - [MESSAGE][PASSED] - Actual text 'Hot Questions - Stack Exchange' and expected text 'Hot Questions - Stack Exchange' are matched 
+
+2018-11-26 17:37:51 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/header_Stack Exchange' is visible
+
+2018-11-26 17:37:51 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/header_Stack Exchange' is visible
+
+2018-11-26 17:37:51 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Tour' is present on page 
+
+2018-11-26 17:37:53 - [MESSAGE][PASSED] - Text 'Tour' is present on page 
+
+2018-11-26 17:37:53 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'About Us' is present on page 
+
+2018-11-26 17:37:55 - [MESSAGE][PASSED] - Text 'About Us' is present on page 
+
+2018-11-26 17:37:55 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Meta' is present on page 
+
+2018-11-26 17:37:56 - [MESSAGE][PASSED] - Text 'Meta' is present on page 
+
+2018-11-26 17:37:56 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/input_Meta_q' is present
+
+2018-11-26 17:37:57 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/input_Meta_q' is present
+
+2018-11-26 17:37:57 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'All Sites' is present on page 
+
+2018-11-26 17:37:59 - [MESSAGE][PASSED] - Text 'All Sites' is present on page 
+
+2018-11-26 17:37:59 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Top Users' is present on page 
+
+2018-11-26 17:38:01 - [MESSAGE][PASSED] - Text 'Top Users' is present on page 
+
+2018-11-26 17:38:01 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Newsletters' is present on page 
+
+2018-11-26 17:38:02 - [MESSAGE][PASSED] - Text 'Newsletters' is present on page 
+
+2018-11-26 17:38:02 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Log In' is present on page 
+
+2018-11-26 17:38:04 - [MESSAGE][PASSED] - Text 'Log In' is present on page 
+
+2018-11-26 17:38:04 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Stack Exchange' is present on page 
+
+2018-11-26 17:38:05 - [MESSAGE][PASSED] - Text 'Stack Exchange' is present on page 
+
+2018-11-26 17:38:05 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-11-26 17:38:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228686024.png]]
+
+2018-11-26 17:38:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-11-26 17:38:06 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-11-26 17:38:06 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/To click the login link: Test Cases/Pages/01_Stack Exchage Homepage/To click the login link
+
+2018-11-26 17:38:07 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/header_Stack Exchange' is visible
+
+2018-11-26 17:38:08 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/header_Stack Exchange' is visible
+
+2018-11-26 17:38:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/a_Log In' is clicked on
+
+2018-11-26 17:38:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/a_Log In' is clicked on
+
+2018-11-26 17:38:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-11-26 17:38:11 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-11-26 17:38:11 - [TEST_CASE][PASSED] - Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully: Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully
+
+2018-11-26 17:38:11 - [TEST_STEP][PASSED] - Statement - actual_pagetitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Log In - Meta Stack Exchange'
+
+2018-11-26 17:38:11 - [MESSAGE][PASSED] - Current window's title is: 'Log In - Meta Stack Exchange'
+
+2018-11-26 17:38:11 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Log In - Meta Stack Exchange' and expected text 'Log In - Meta Stack Exchange' are matched 
+
+2018-11-26 17:38:12 - [MESSAGE][PASSED] - Actual text 'Log In - Meta Stack Exchange' and expected text 'Log In - Meta Stack Exchange' are matched 
+
+2018-11-26 17:38:12 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Log in to the  network of' is present
+
+2018-11-26 17:38:12 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Log in to the  network of' is present
+
+2018-11-26 17:38:12 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Google' is present
+
+2018-11-26 17:38:12 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Google' is present
+
+2018-11-26 17:38:12 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Facebook' is present
+
+2018-11-26 17:38:12 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Facebook' is present
+
+2018-11-26 17:38:12 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Email_email' is present
+
+2018-11-26 17:38:12 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Email_email' is present
+
+2018-11-26 17:38:12 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Password_password' is present
+
+2018-11-26 17:38:12 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Password_password' is present
+
+2018-11-26 17:38:12 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'forgot?' is present on page 
+
+2018-11-26 17:38:12 - [MESSAGE][PASSED] - Text 'forgot?' is present on page 
+
+2018-11-26 17:38:12 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-11-26 17:38:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228692789.png]]
+
+2018-11-26 17:38:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-11-26 17:38:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/button_Log in' is clicked on
+
+2018-11-26 17:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/button_Log in' is clicked on
+
+2018-11-26 17:38:13 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/Data Validation/div_Email cannot be empty.' is present
+
+2018-11-26 17:38:14 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/Data Validation/div_Email cannot be empty.' is present
+
+2018-11-26 17:38:14 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/Data Validation/div_Password cannot be empty.' is present
+
+2018-11-26 17:38:14 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/Data Validation/div_Password cannot be empty.' is present
+
+2018-11-26 17:38:14 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-11-26 17:38:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228694406.png]]
+
+2018-11-26 17:38:14 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-11-26 17:38:14 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-26 17:38:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tests/Log In/TC-SIN-002 Check for empty username" classname="Test Cases/Tests/Log In/TC-SIN-002 Check for empty username" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/button_Log in' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element must be user-editable in order to clear it.
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-0PTJ8Q3', ip: '192.168.77.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\RONNAC~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52551}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: bbc0dcfabda5542dbb15653e43811cc5)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:981)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$11.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1540172916897.run(Script1540172916897.groovy:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543228652387.run(TempTestSuite1543228652387.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-26 17:38:18 - [TEST_CASE][FAILED] - Test Cases/Tests/Log In/TC-SIN-002 Check for empty username: Test Cases/Tests/Log In/TC-SIN-002 Check for empty username FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/button_Log in' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element must be user-editable in order to clear it.
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-0PTJ8Q3', ip: '192.168.77.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\RONNAC~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52551}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: bbc0dcfabda5542dbb15653e43811cc5)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:981)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$11.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1540172916897.run(Script1540172916897.groovy:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543228652387.run(TempTestSuite1543228652387.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-26 17:38:18 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://stackexchange.com/' successfully
+
+2018-11-26 17:38:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-26 17:38:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-26 17:38:20 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-26 17:38:21 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-26 17:38:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stackexchange.com/' successfully
+
+2018-11-26 17:38:24 - [MESSAGE][PASSED] - Navigate to 'https://stackexchange.com/' successfully
+
+2018-11-26 17:38:25 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-11-26 17:38:25 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully: Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully
+
+2018-11-26 17:38:25 - [TEST_STEP][PASSED] - Statement - actual_pagetitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Hot Questions - Stack Exchange'
+
+2018-11-26 17:38:25 - [MESSAGE][PASSED] - Current window's title is: 'Hot Questions - Stack Exchange'
+
+2018-11-26 17:38:25 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Hot Questions - Stack Exchange' and expected text 'Hot Questions - Stack Exchange' are matched 
+
+2018-11-26 17:38:25 - [MESSAGE][PASSED] - Actual text 'Hot Questions - Stack Exchange' and expected text 'Hot Questions - Stack Exchange' are matched 
+
+2018-11-26 17:38:25 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/header_Stack Exchange' is visible
+
+2018-11-26 17:38:26 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/header_Stack Exchange' is visible
+
+2018-11-26 17:38:26 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Tour' is present on page 
+
+2018-11-26 17:38:28 - [MESSAGE][PASSED] - Text 'Tour' is present on page 
+
+2018-11-26 17:38:28 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'About Us' is present on page 
+
+2018-11-26 17:38:29 - [MESSAGE][PASSED] - Text 'About Us' is present on page 
+
+2018-11-26 17:38:29 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Meta' is present on page 
+
+2018-11-26 17:38:31 - [MESSAGE][PASSED] - Text 'Meta' is present on page 
+
+2018-11-26 17:38:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/input_Meta_q' is present
+
+2018-11-26 17:38:31 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/input_Meta_q' is present
+
+2018-11-26 17:38:31 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'All Sites' is present on page 
+
+2018-11-26 17:38:33 - [MESSAGE][PASSED] - Text 'All Sites' is present on page 
+
+2018-11-26 17:38:33 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Top Users' is present on page 
+
+2018-11-26 17:38:35 - [MESSAGE][PASSED] - Text 'Top Users' is present on page 
+
+2018-11-26 17:38:35 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Newsletters' is present on page 
+
+2018-11-26 17:38:36 - [MESSAGE][PASSED] - Text 'Newsletters' is present on page 
+
+2018-11-26 17:38:36 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Log In' is present on page 
+
+2018-11-26 17:38:38 - [MESSAGE][PASSED] - Text 'Log In' is present on page 
+
+2018-11-26 17:38:38 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Stack Exchange' is present on page 
+
+2018-11-26 17:38:39 - [MESSAGE][PASSED] - Text 'Stack Exchange' is present on page 
+
+2018-11-26 17:38:39 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-11-26 17:38:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228719791.png]]
+
+2018-11-26 17:38:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-11-26 17:38:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-11-26 17:38:40 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/To click the login link: Test Cases/Pages/01_Stack Exchage Homepage/To click the login link
+
+2018-11-26 17:38:40 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/header_Stack Exchange' is visible
+
+2018-11-26 17:38:40 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/header_Stack Exchange' is visible
+
+2018-11-26 17:38:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/a_Log In' is clicked on
+
+2018-11-26 17:38:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/a_Log In' is clicked on
+
+2018-11-26 17:38:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-11-26 17:38:43 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-11-26 17:38:43 - [TEST_CASE][PASSED] - Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully: Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully
+
+2018-11-26 17:38:43 - [TEST_STEP][PASSED] - Statement - actual_pagetitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Log In - Meta Stack Exchange'
+
+2018-11-26 17:38:43 - [MESSAGE][PASSED] - Current window's title is: 'Log In - Meta Stack Exchange'
+
+2018-11-26 17:38:43 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Log In - Meta Stack Exchange' and expected text 'Log In - Meta Stack Exchange' are matched 
+
+2018-11-26 17:38:43 - [MESSAGE][PASSED] - Actual text 'Log In - Meta Stack Exchange' and expected text 'Log In - Meta Stack Exchange' are matched 
+
+2018-11-26 17:38:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Log in to the  network of' is present
+
+2018-11-26 17:38:43 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Log in to the  network of' is present
+
+2018-11-26 17:38:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Google' is present
+
+2018-11-26 17:38:43 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Google' is present
+
+2018-11-26 17:38:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Facebook' is present
+
+2018-11-26 17:38:44 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Facebook' is present
+
+2018-11-26 17:38:44 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Email_email' is present
+
+2018-11-26 17:38:44 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Email_email' is present
+
+2018-11-26 17:38:44 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Password_password' is present
+
+2018-11-26 17:38:44 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Password_password' is present
+
+2018-11-26 17:38:44 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'forgot?' is present on page 
+
+2018-11-26 17:38:44 - [MESSAGE][PASSED] - Text 'forgot?' is present on page 
+
+2018-11-26 17:38:44 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-11-26 17:38:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228724567.png]]
+
+2018-11-26 17:38:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-11-26 17:38:45 - [TEST_STEP][FAILED] - setEncryptedText: Unable to set encrypted text for object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/button_Log in' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element must be user-editable in order to clear it.
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-0PTJ8Q3', ip: '192.168.77.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\RONNAC~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52551}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: bbc0dcfabda5542dbb15653e43811cc5)
+
+2018-11-26 17:38:46 - [MESSAGE][FAILED] - Unable to set encrypted text for object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/button_Log in' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element must be user-editable in order to clear it.
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-0PTJ8Q3', ip: '192.168.77.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\RONNAC~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52551}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: bbc0dcfabda5542dbb15653e43811cc5)
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228725647.png]]
+
+2018-11-26 17:38:46 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_forgot_submit-button' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_forgot_submit-button' located by 'By.xpath: //input[@id = 'submit-button' and @name = 'submit-button']' not found)
+
+2018-11-26 17:39:19 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_forgot_submit-button' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_forgot_submit-button' located by 'By.xpath: //input[@id = 'submit-button' and @name = 'submit-button']' not found)
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228758808.png]]
+
+2018-11-26 17:39:19 - [TEST_STEP][FAILED] - verifyElementPresent: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/Data Validation/div_Email cannot be empty.' located by 'By.xpath: //div[(text() = 'Email cannot be empty.' or . = 'Email cannot be empty.')]' not found
+
+2018-11-26 17:39:51 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/Data Validation/div_Email cannot be empty.' located by 'By.xpath: //div[(text() = 'Email cannot be empty.' or . = 'Email cannot be empty.')]' not found
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228791505.png]]
+
+2018-11-26 17:39:51 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-11-26 17:39:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228791909.png]]
+
+2018-11-26 17:39:52 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-11-26 17:39:52 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-26 17:39:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-11-26 17:38:18 - [TEST_CASE][FAILED] - Test Cases/Tests/Log In/TC-SIN-002 Check for empty username: Test Cases/Tests/Log In/TC-SIN-002 Check for empty username FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/button_Log in' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element must be user-editable in order to clear it.
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-0PTJ8Q3', ip: '192.168.77.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\RONNAC~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52551}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: bbc0dcfabda5542dbb15653e43811cc5)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:981)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$11.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1540172916897.run(Script1540172916897.groovy:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543228652387.run(TempTestSuite1543228652387.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tests/Log In/TC-SIN-003 Check for empty password" classname="Test Cases/Tests/Log In/TC-SIN-003 Check for empty password" status="PASSED">
+         <system-out><![CDATA[2018-11-26 17:39:55 - [TEST_CASE][PASSED] - Test Cases/Tests/Log In/TC-SIN-003 Check for empty password: Test Cases/Tests/Log In/TC-SIN-003 Check for empty password
+
+2018-11-26 17:39:55 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://stackexchange.com/' successfully
+
+2018-11-26 17:39:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-26 17:39:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-26 17:39:58 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-26 17:40:00 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-26 17:40:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stackexchange.com/' successfully
+
+2018-11-26 17:40:02 - [MESSAGE][PASSED] - Navigate to 'https://stackexchange.com/' successfully
+
+2018-11-26 17:40:03 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-11-26 17:40:03 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully: Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully
+
+2018-11-26 17:40:04 - [TEST_STEP][PASSED] - Statement - actual_pagetitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Hot Questions - Stack Exchange'
+
+2018-11-26 17:40:04 - [MESSAGE][PASSED] - Current window's title is: 'Hot Questions - Stack Exchange'
+
+2018-11-26 17:40:04 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Hot Questions - Stack Exchange' and expected text 'Hot Questions - Stack Exchange' are matched 
+
+2018-11-26 17:40:04 - [MESSAGE][PASSED] - Actual text 'Hot Questions - Stack Exchange' and expected text 'Hot Questions - Stack Exchange' are matched 
+
+2018-11-26 17:40:04 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/header_Stack Exchange' is visible
+
+2018-11-26 17:40:04 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/header_Stack Exchange' is visible
+
+2018-11-26 17:40:04 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Tour' is present on page 
+
+2018-11-26 17:40:06 - [MESSAGE][PASSED] - Text 'Tour' is present on page 
+
+2018-11-26 17:40:06 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'About Us' is present on page 
+
+2018-11-26 17:40:08 - [MESSAGE][PASSED] - Text 'About Us' is present on page 
+
+2018-11-26 17:40:08 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Meta' is present on page 
+
+2018-11-26 17:40:10 - [MESSAGE][PASSED] - Text 'Meta' is present on page 
+
+2018-11-26 17:40:10 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/input_Meta_q' is present
+
+2018-11-26 17:40:10 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/input_Meta_q' is present
+
+2018-11-26 17:40:10 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'All Sites' is present on page 
+
+2018-11-26 17:40:12 - [MESSAGE][PASSED] - Text 'All Sites' is present on page 
+
+2018-11-26 17:40:12 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Top Users' is present on page 
+
+2018-11-26 17:40:14 - [MESSAGE][PASSED] - Text 'Top Users' is present on page 
+
+2018-11-26 17:40:14 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Newsletters' is present on page 
+
+2018-11-26 17:40:15 - [MESSAGE][PASSED] - Text 'Newsletters' is present on page 
+
+2018-11-26 17:40:15 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Log In' is present on page 
+
+2018-11-26 17:40:17 - [MESSAGE][PASSED] - Text 'Log In' is present on page 
+
+2018-11-26 17:40:17 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Stack Exchange' is present on page 
+
+2018-11-26 17:40:19 - [MESSAGE][PASSED] - Text 'Stack Exchange' is present on page 
+
+2018-11-26 17:40:19 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-11-26 17:40:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228819147.png]]
+
+2018-11-26 17:40:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-11-26 17:40:19 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-11-26 17:40:19 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/To click the login link: Test Cases/Pages/01_Stack Exchage Homepage/To click the login link
+
+2018-11-26 17:40:19 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/header_Stack Exchange' is visible
+
+2018-11-26 17:40:19 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/header_Stack Exchange' is visible
+
+2018-11-26 17:40:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/a_Log In' is clicked on
+
+2018-11-26 17:40:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/a_Log In' is clicked on
+
+2018-11-26 17:40:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-11-26 17:40:22 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-11-26 17:40:22 - [TEST_CASE][PASSED] - Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully: Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully
+
+2018-11-26 17:40:22 - [TEST_STEP][PASSED] - Statement - actual_pagetitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Log In - Meta Stack Exchange'
+
+2018-11-26 17:40:23 - [MESSAGE][PASSED] - Current window's title is: 'Log In - Meta Stack Exchange'
+
+2018-11-26 17:40:23 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Log In - Meta Stack Exchange' and expected text 'Log In - Meta Stack Exchange' are matched 
+
+2018-11-26 17:40:23 - [MESSAGE][PASSED] - Actual text 'Log In - Meta Stack Exchange' and expected text 'Log In - Meta Stack Exchange' are matched 
+
+2018-11-26 17:40:23 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Log in to the  network of' is present
+
+2018-11-26 17:40:23 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Log in to the  network of' is present
+
+2018-11-26 17:40:23 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Google' is present
+
+2018-11-26 17:40:23 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Google' is present
+
+2018-11-26 17:40:23 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Facebook' is present
+
+2018-11-26 17:40:23 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Facebook' is present
+
+2018-11-26 17:40:23 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Email_email' is present
+
+2018-11-26 17:40:23 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Email_email' is present
+
+2018-11-26 17:40:23 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Password_password' is present
+
+2018-11-26 17:40:23 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Password_password' is present
+
+2018-11-26 17:40:23 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'forgot?' is present on page 
+
+2018-11-26 17:40:23 - [MESSAGE][PASSED] - Text 'forgot?' is present on page 
+
+2018-11-26 17:40:23 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-11-26 17:40:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228823687.png]]
+
+2018-11-26 17:40:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-11-26 17:40:24 - [TEST_STEP][PASSED] - setText: Text 'charnjaroen@gmail.com' is set on object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Email_email'
+
+2018-11-26 17:40:24 - [MESSAGE][PASSED] - Text 'charnjaroen@gmail.com' is set on object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Email_email'
+
+2018-11-26 17:40:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/button_Log in' is clicked on
+
+2018-11-26 17:40:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/button_Log in' is clicked on
+
+2018-11-26 17:40:25 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/Data Validation/div_Password cannot be empty.' is present
+
+2018-11-26 17:40:25 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/Data Validation/div_Password cannot be empty.' is present
+
+2018-11-26 17:40:25 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-11-26 17:40:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228825821.png]]
+
+2018-11-26 17:40:26 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-11-26 17:40:26 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-26 17:40:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tests/Log In/TC-SIN-004 Check for invalid username" classname="Test Cases/Tests/Log In/TC-SIN-004 Check for invalid username" status="PASSED">
+         <system-out><![CDATA[2018-11-26 17:40:29 - [TEST_CASE][PASSED] - Test Cases/Tests/Log In/TC-SIN-004 Check for invalid username: Test Cases/Tests/Log In/TC-SIN-004 Check for invalid username
+
+2018-11-26 17:40:29 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://stackexchange.com/' successfully
+
+2018-11-26 17:40:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-26 17:40:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-26 17:40:32 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-26 17:40:33 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-26 17:40:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stackexchange.com/' successfully
+
+2018-11-26 17:40:36 - [MESSAGE][PASSED] - Navigate to 'https://stackexchange.com/' successfully
+
+2018-11-26 17:40:37 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-11-26 17:40:37 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully: Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully
+
+2018-11-26 17:40:37 - [TEST_STEP][PASSED] - Statement - actual_pagetitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Hot Questions - Stack Exchange'
+
+2018-11-26 17:40:37 - [MESSAGE][PASSED] - Current window's title is: 'Hot Questions - Stack Exchange'
+
+2018-11-26 17:40:37 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Hot Questions - Stack Exchange' and expected text 'Hot Questions - Stack Exchange' are matched 
+
+2018-11-26 17:40:37 - [MESSAGE][PASSED] - Actual text 'Hot Questions - Stack Exchange' and expected text 'Hot Questions - Stack Exchange' are matched 
+
+2018-11-26 17:40:37 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/header_Stack Exchange' is visible
+
+2018-11-26 17:40:38 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/header_Stack Exchange' is visible
+
+2018-11-26 17:40:38 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Tour' is present on page 
+
+2018-11-26 17:40:40 - [MESSAGE][PASSED] - Text 'Tour' is present on page 
+
+2018-11-26 17:40:40 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'About Us' is present on page 
+
+2018-11-26 17:40:42 - [MESSAGE][PASSED] - Text 'About Us' is present on page 
+
+2018-11-26 17:40:42 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Meta' is present on page 
+
+2018-11-26 17:40:44 - [MESSAGE][PASSED] - Text 'Meta' is present on page 
+
+2018-11-26 17:40:44 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/input_Meta_q' is present
+
+2018-11-26 17:40:44 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/input_Meta_q' is present
+
+2018-11-26 17:40:44 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'All Sites' is present on page 
+
+2018-11-26 17:40:46 - [MESSAGE][PASSED] - Text 'All Sites' is present on page 
+
+2018-11-26 17:40:46 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Top Users' is present on page 
+
+2018-11-26 17:40:48 - [MESSAGE][PASSED] - Text 'Top Users' is present on page 
+
+2018-11-26 17:40:48 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Newsletters' is present on page 
+
+2018-11-26 17:40:50 - [MESSAGE][PASSED] - Text 'Newsletters' is present on page 
+
+2018-11-26 17:40:50 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Log In' is present on page 
+
+2018-11-26 17:40:52 - [MESSAGE][PASSED] - Text 'Log In' is present on page 
+
+2018-11-26 17:40:52 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Stack Exchange' is present on page 
+
+2018-11-26 17:40:54 - [MESSAGE][PASSED] - Text 'Stack Exchange' is present on page 
+
+2018-11-26 17:40:54 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-11-26 17:40:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228854370.png]]
+
+2018-11-26 17:40:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-11-26 17:40:54 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-11-26 17:40:54 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/To click the login link: Test Cases/Pages/01_Stack Exchage Homepage/To click the login link
+
+2018-11-26 17:40:54 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/header_Stack Exchange' is visible
+
+2018-11-26 17:40:55 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/header_Stack Exchange' is visible
+
+2018-11-26 17:40:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/a_Log In' is clicked on
+
+2018-11-26 17:40:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/a_Log In' is clicked on
+
+2018-11-26 17:40:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-11-26 17:40:57 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-11-26 17:40:57 - [TEST_CASE][PASSED] - Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully: Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully
+
+2018-11-26 17:40:57 - [TEST_STEP][PASSED] - Statement - actual_pagetitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Log In - Meta Stack Exchange'
+
+2018-11-26 17:40:57 - [MESSAGE][PASSED] - Current window's title is: 'Log In - Meta Stack Exchange'
+
+2018-11-26 17:40:57 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Log In - Meta Stack Exchange' and expected text 'Log In - Meta Stack Exchange' are matched 
+
+2018-11-26 17:40:57 - [MESSAGE][PASSED] - Actual text 'Log In - Meta Stack Exchange' and expected text 'Log In - Meta Stack Exchange' are matched 
+
+2018-11-26 17:40:57 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Log in to the  network of' is present
+
+2018-11-26 17:40:58 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Log in to the  network of' is present
+
+2018-11-26 17:40:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Google' is present
+
+2018-11-26 17:40:58 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Google' is present
+
+2018-11-26 17:40:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Facebook' is present
+
+2018-11-26 17:40:58 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Facebook' is present
+
+2018-11-26 17:40:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Email_email' is present
+
+2018-11-26 17:40:58 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Email_email' is present
+
+2018-11-26 17:40:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Password_password' is present
+
+2018-11-26 17:40:58 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Password_password' is present
+
+2018-11-26 17:40:58 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'forgot?' is present on page 
+
+2018-11-26 17:40:58 - [MESSAGE][PASSED] - Text 'forgot?' is present on page 
+
+2018-11-26 17:40:58 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-11-26 17:40:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228858670.png]]
+
+2018-11-26 17:40:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-11-26 17:40:59 - [TEST_STEP][PASSED] - setText: Text 'charnjaroen' is set on object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Email_email'
+
+2018-11-26 17:40:59 - [MESSAGE][PASSED] - Text 'charnjaroen' is set on object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Email_email'
+
+2018-11-26 17:40:59 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Password_password'
+
+2018-11-26 17:41:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Password_password'
+
+2018-11-26 17:41:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/button_Log in' is clicked on
+
+2018-11-26 17:41:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/button_Log in' is clicked on
+
+2018-11-26 17:41:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/Data Validation/div_The email is not a valid e' is present
+
+2018-11-26 17:41:02 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/Data Validation/div_The email is not a valid e' is present
+
+2018-11-26 17:41:02 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-11-26 17:41:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228862109.png]]
+
+2018-11-26 17:41:02 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-11-26 17:41:02 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-26 17:41:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tests/Log In/TC-SIN-005 Check for invalid password" classname="Test Cases/Tests/Log In/TC-SIN-005 Check for invalid password" status="PASSED">
+         <system-out><![CDATA[2018-11-26 17:41:05 - [TEST_CASE][PASSED] - Test Cases/Tests/Log In/TC-SIN-005 Check for invalid password: Test Cases/Tests/Log In/TC-SIN-005 Check for invalid password
+
+2018-11-26 17:41:05 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://stackexchange.com/' successfully
+
+2018-11-26 17:41:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-26 17:41:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-26 17:41:08 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-26 17:41:10 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-26 17:41:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stackexchange.com/' successfully
+
+2018-11-26 17:41:13 - [MESSAGE][PASSED] - Navigate to 'https://stackexchange.com/' successfully
+
+2018-11-26 17:41:13 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-11-26 17:41:13 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully: Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully
+
+2018-11-26 17:41:13 - [TEST_STEP][PASSED] - Statement - actual_pagetitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Hot Questions - Stack Exchange'
+
+2018-11-26 17:41:13 - [MESSAGE][PASSED] - Current window's title is: 'Hot Questions - Stack Exchange'
+
+2018-11-26 17:41:13 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Hot Questions - Stack Exchange' and expected text 'Hot Questions - Stack Exchange' are matched 
+
+2018-11-26 17:41:13 - [MESSAGE][PASSED] - Actual text 'Hot Questions - Stack Exchange' and expected text 'Hot Questions - Stack Exchange' are matched 
+
+2018-11-26 17:41:13 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/header_Stack Exchange' is visible
+
+2018-11-26 17:41:14 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/header_Stack Exchange' is visible
+
+2018-11-26 17:41:14 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Tour' is present on page 
+
+2018-11-26 17:41:15 - [MESSAGE][PASSED] - Text 'Tour' is present on page 
+
+2018-11-26 17:41:15 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'About Us' is present on page 
+
+2018-11-26 17:41:18 - [MESSAGE][PASSED] - Text 'About Us' is present on page 
+
+2018-11-26 17:41:18 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Meta' is present on page 
+
+2018-11-26 17:41:20 - [MESSAGE][PASSED] - Text 'Meta' is present on page 
+
+2018-11-26 17:41:20 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/input_Meta_q' is present
+
+2018-11-26 17:41:20 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/input_Meta_q' is present
+
+2018-11-26 17:41:20 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'All Sites' is present on page 
+
+2018-11-26 17:41:22 - [MESSAGE][PASSED] - Text 'All Sites' is present on page 
+
+2018-11-26 17:41:22 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Top Users' is present on page 
+
+2018-11-26 17:41:24 - [MESSAGE][PASSED] - Text 'Top Users' is present on page 
+
+2018-11-26 17:41:24 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Newsletters' is present on page 
+
+2018-11-26 17:41:26 - [MESSAGE][PASSED] - Text 'Newsletters' is present on page 
+
+2018-11-26 17:41:26 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Log In' is present on page 
+
+2018-11-26 17:41:28 - [MESSAGE][PASSED] - Text 'Log In' is present on page 
+
+2018-11-26 17:41:28 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Stack Exchange' is present on page 
+
+2018-11-26 17:41:30 - [MESSAGE][PASSED] - Text 'Stack Exchange' is present on page 
+
+2018-11-26 17:41:30 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-11-26 17:41:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228890337.png]]
+
+2018-11-26 17:41:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-11-26 17:41:30 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-11-26 17:41:30 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/To click the login link: Test Cases/Pages/01_Stack Exchage Homepage/To click the login link
+
+2018-11-26 17:41:30 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/header_Stack Exchange' is visible
+
+2018-11-26 17:41:31 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/header_Stack Exchange' is visible
+
+2018-11-26 17:41:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/a_Log In' is clicked on
+
+2018-11-26 17:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/a_Log In' is clicked on
+
+2018-11-26 17:41:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-11-26 17:41:34 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-11-26 17:41:34 - [TEST_CASE][PASSED] - Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully: Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully
+
+2018-11-26 17:41:34 - [TEST_STEP][PASSED] - Statement - actual_pagetitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Log In - Meta Stack Exchange'
+
+2018-11-26 17:41:34 - [MESSAGE][PASSED] - Current window's title is: 'Log In - Meta Stack Exchange'
+
+2018-11-26 17:41:34 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Log In - Meta Stack Exchange' and expected text 'Log In - Meta Stack Exchange' are matched 
+
+2018-11-26 17:41:35 - [MESSAGE][PASSED] - Actual text 'Log In - Meta Stack Exchange' and expected text 'Log In - Meta Stack Exchange' are matched 
+
+2018-11-26 17:41:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Log in to the  network of' is present
+
+2018-11-26 17:41:35 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Log in to the  network of' is present
+
+2018-11-26 17:41:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Google' is present
+
+2018-11-26 17:41:35 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Google' is present
+
+2018-11-26 17:41:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Facebook' is present
+
+2018-11-26 17:41:35 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Facebook' is present
+
+2018-11-26 17:41:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Email_email' is present
+
+2018-11-26 17:41:35 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Email_email' is present
+
+2018-11-26 17:41:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Password_password' is present
+
+2018-11-26 17:41:35 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Password_password' is present
+
+2018-11-26 17:41:35 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'forgot?' is present on page 
+
+2018-11-26 17:41:35 - [MESSAGE][PASSED] - Text 'forgot?' is present on page 
+
+2018-11-26 17:41:35 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-11-26 17:41:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228895658.png]]
+
+2018-11-26 17:41:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-11-26 17:41:36 - [TEST_STEP][PASSED] - setText: Text 'charnjaroen@gmail.com' is set on object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Email_email'
+
+2018-11-26 17:41:36 - [MESSAGE][PASSED] - Text 'charnjaroen@gmail.com' is set on object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Email_email'
+
+2018-11-26 17:41:36 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Password_password'
+
+2018-11-26 17:41:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Password_password'
+
+2018-11-26 17:41:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/button_Log in' is clicked on
+
+2018-11-26 17:41:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/button_Log in' is clicked on
+
+2018-11-26 17:41:37 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/Data Validation/div_The email or password is i' is present
+
+2018-11-26 17:41:39 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/Data Validation/div_The email or password is i' is present
+
+2018-11-26 17:41:39 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-11-26 17:41:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228899602.png]]
+
+2018-11-26 17:41:40 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-11-26 17:41:40 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-26 17:41:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tests/Log In/TC-SIN-006 Check for valid username and password via stackexchange" classname="Test Cases/Tests/Log In/TC-SIN-006 Check for valid username and password via stackexchange" status="PASSED">
+         <system-out><![CDATA[2018-11-26 17:41:43 - [TEST_CASE][PASSED] - Test Cases/Tests/Log In/TC-SIN-006 Check for valid username and password via stackexchange: Test Cases/Tests/Log In/TC-SIN-006 Check for valid username and password via stackexchange
+
+2018-11-26 17:41:43 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://stackexchange.com/' successfully
+
+2018-11-26 17:41:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-26 17:41:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-26 17:41:46 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-26 17:41:47 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-26 17:41:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stackexchange.com/' successfully
+
+2018-11-26 17:41:50 - [MESSAGE][PASSED] - Navigate to 'https://stackexchange.com/' successfully
+
+2018-11-26 17:41:51 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-11-26 17:41:51 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully: Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully
+
+2018-11-26 17:41:51 - [TEST_STEP][PASSED] - Statement - actual_pagetitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Hot Questions - Stack Exchange'
+
+2018-11-26 17:41:51 - [MESSAGE][PASSED] - Current window's title is: 'Hot Questions - Stack Exchange'
+
+2018-11-26 17:41:51 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Hot Questions - Stack Exchange' and expected text 'Hot Questions - Stack Exchange' are matched 
+
+2018-11-26 17:41:51 - [MESSAGE][PASSED] - Actual text 'Hot Questions - Stack Exchange' and expected text 'Hot Questions - Stack Exchange' are matched 
+
+2018-11-26 17:41:51 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/header_Stack Exchange' is visible
+
+2018-11-26 17:41:51 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/header_Stack Exchange' is visible
+
+2018-11-26 17:41:51 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Tour' is present on page 
+
+2018-11-26 17:41:53 - [MESSAGE][PASSED] - Text 'Tour' is present on page 
+
+2018-11-26 17:41:53 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'About Us' is present on page 
+
+2018-11-26 17:41:55 - [MESSAGE][PASSED] - Text 'About Us' is present on page 
+
+2018-11-26 17:41:55 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Meta' is present on page 
+
+2018-11-26 17:41:57 - [MESSAGE][PASSED] - Text 'Meta' is present on page 
+
+2018-11-26 17:41:57 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/input_Meta_q' is present
+
+2018-11-26 17:41:57 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/input_Meta_q' is present
+
+2018-11-26 17:41:57 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'All Sites' is present on page 
+
+2018-11-26 17:42:00 - [MESSAGE][PASSED] - Text 'All Sites' is present on page 
+
+2018-11-26 17:42:00 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Top Users' is present on page 
+
+2018-11-26 17:42:02 - [MESSAGE][PASSED] - Text 'Top Users' is present on page 
+
+2018-11-26 17:42:02 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Newsletters' is present on page 
+
+2018-11-26 17:42:04 - [MESSAGE][PASSED] - Text 'Newsletters' is present on page 
+
+2018-11-26 17:42:04 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Log In' is present on page 
+
+2018-11-26 17:42:06 - [MESSAGE][PASSED] - Text 'Log In' is present on page 
+
+2018-11-26 17:42:06 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Stack Exchange' is present on page 
+
+2018-11-26 17:42:07 - [MESSAGE][PASSED] - Text 'Stack Exchange' is present on page 
+
+2018-11-26 17:42:07 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-11-26 17:42:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228927704.png]]
+
+2018-11-26 17:42:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-11-26 17:42:08 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-11-26 17:42:08 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/To click the login link: Test Cases/Pages/01_Stack Exchage Homepage/To click the login link
+
+2018-11-26 17:42:08 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/header_Stack Exchange' is visible
+
+2018-11-26 17:42:08 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/header_Stack Exchange' is visible
+
+2018-11-26 17:42:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/a_Log In' is clicked on
+
+2018-11-26 17:42:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Hot Questions - Stack Exchange/a_Log In' is clicked on
+
+2018-11-26 17:42:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-11-26 17:42:10 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-11-26 17:42:11 - [TEST_CASE][PASSED] - Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully: Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully
+
+2018-11-26 17:42:11 - [TEST_STEP][PASSED] - Statement - actual_pagetitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Log In - Meta Stack Exchange'
+
+2018-11-26 17:42:11 - [MESSAGE][PASSED] - Current window's title is: 'Log In - Meta Stack Exchange'
+
+2018-11-26 17:42:11 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Log In - Meta Stack Exchange' and expected text 'Log In - Meta Stack Exchange' are matched 
+
+2018-11-26 17:42:11 - [MESSAGE][PASSED] - Actual text 'Log In - Meta Stack Exchange' and expected text 'Log In - Meta Stack Exchange' are matched 
+
+2018-11-26 17:42:11 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Log in to the  network of' is present
+
+2018-11-26 17:42:11 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Log in to the  network of' is present
+
+2018-11-26 17:42:11 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Google' is present
+
+2018-11-26 17:42:11 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Google' is present
+
+2018-11-26 17:42:11 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Facebook' is present
+
+2018-11-26 17:42:11 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/div_Facebook' is present
+
+2018-11-26 17:42:11 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Email_email' is present
+
+2018-11-26 17:42:11 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Email_email' is present
+
+2018-11-26 17:42:11 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Password_password' is present
+
+2018-11-26 17:42:11 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Password_password' is present
+
+2018-11-26 17:42:11 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'forgot?' is present on page 
+
+2018-11-26 17:42:11 - [MESSAGE][PASSED] - Text 'forgot?' is present on page 
+
+2018-11-26 17:42:11 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-11-26 17:42:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228931745.png]]
+
+2018-11-26 17:42:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-11-26 17:42:12 - [TEST_STEP][PASSED] - setText: Text 'mr.ronnachai.c@gmail.com' is set on object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Email_email'
+
+2018-11-26 17:42:13 - [MESSAGE][PASSED] - Text 'mr.ronnachai.c@gmail.com' is set on object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Email_email'
+
+2018-11-26 17:42:13 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Password_password'
+
+2018-11-26 17:42:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Password_password'
+
+2018-11-26 17:42:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/button_Log in' is clicked on
+
+2018-11-26 17:42:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/button_Log in' is clicked on
+
+2018-11-26 17:42:14 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-26 17:42:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-26 17:42:24 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/03_Dashboard Page/The Dashboard Page is loaded successfully' successfully
+
+2018-11-26 17:42:24 - [TEST_CASE][PASSED] - Test Cases/Pages/03_Dashboard Page/The Dashboard Page is loaded successfully: Test Cases/Pages/03_Dashboard Page/The Dashboard Page is loaded successfully
+
+2018-11-26 17:42:25 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Login Success - Stack Exchange/header_Stack Exchange' is visible
+
+2018-11-26 17:42:25 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Login Success - Stack Exchange/header_Stack Exchange' is visible
+
+2018-11-26 17:42:25 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Tour' is present on page 
+
+2018-11-26 17:42:27 - [MESSAGE][PASSED] - Text 'Tour' is present on page 
+
+2018-11-26 17:42:27 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'About Us' is present on page 
+
+2018-11-26 17:42:28 - [MESSAGE][PASSED] - Text 'About Us' is present on page 
+
+2018-11-26 17:42:28 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Meta' is present on page 
+
+2018-11-26 17:42:30 - [MESSAGE][PASSED] - Text 'Meta' is present on page 
+
+2018-11-26 17:42:30 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Login Success - Stack Exchange/a_Meta_my-profile js-gps-track' is visible
+
+2018-11-26 17:42:30 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Login Success - Stack Exchange/a_Meta_my-profile js-gps-track' is visible
+
+2018-11-26 17:42:30 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Login Success - Stack Exchange/a_Meta_-link js-inbox-button' is visible
+
+2018-11-26 17:42:31 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Login Success - Stack Exchange/a_Meta_-link js-inbox-button' is visible
+
+2018-11-26 17:42:31 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Login Success - Stack Exchange/a_Meta_-link js-achievements-b' is visible
+
+2018-11-26 17:42:31 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Login Success - Stack Exchange/a_Meta_-link js-achievements-b' is visible
+
+2018-11-26 17:42:31 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Login Success - Stack Exchange/a_Meta_-link js-site-switcher-' is visible
+
+2018-11-26 17:42:31 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Login Success - Stack Exchange/a_Meta_-link js-site-switcher-' is visible
+
+2018-11-26 17:42:31 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-11-26 17:42:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181126_173732\\1543228951347.png]]
+
+2018-11-26 17:42:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/03_Dashboard Page/The Dashboard Page is loaded successfully' successfully
+
+2018-11-26 17:42:31 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-11-26 17:42:31 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2018-11-26 17:42:31 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/03_Dashboard Page/To click the logout link' successfully
+
+2018-11-26 17:42:31 - [TEST_CASE][PASSED] - Test Cases/Pages/03_Dashboard Page/To click the logout link: Test Cases/Pages/03_Dashboard Page/To click the logout link
+
+2018-11-26 17:42:32 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Login Success - Stack Exchange/header_Stack Exchange' is visible
+
+2018-11-26 17:42:32 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Login Success - Stack Exchange/header_Stack Exchange' is visible
+
+2018-11-26 17:42:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Login Success - Stack Exchange/a_Meta_-link js-site-switcher-' is clicked on
+
+2018-11-26 17:42:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Login Success - Stack Exchange/a_Meta_-link js-site-switcher-' is clicked on
+
+2018-11-26 17:42:32 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-26 17:42:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-26 17:42:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log Out/a_log out' is clicked on
+
+2018-11-26 17:42:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log Out/a_log out' is clicked on
+
+2018-11-26 17:42:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log Out/input_superuser.com_everywhere' is clicked on
+
+2018-11-26 17:42:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log Out/input_superuser.com_everywhere' is clicked on
+
+2018-11-26 17:42:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log Out/input_cancel_fr' is clicked on
+
+2018-11-26 17:42:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log Out/input_cancel_fr' is clicked on
+
+2018-11-26 17:42:41 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-26 17:42:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-26 17:42:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/03_Dashboard Page/To click the logout link' successfully
+
+2018-11-26 17:42:46 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-11-26 17:42:46 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-26 17:42:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-26 17:37:35 - [TEST_SUITE][FAILED] - Login Test Suite: Test Cases/Tests/Log In/TC-SIN-002 Check for empty username FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/button_Log in' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element must be user-editable in order to clear it.
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-0PTJ8Q3', ip: '192.168.77.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\RONNAC~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52551}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: bbc0dcfabda5542dbb15653e43811cc5)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:981)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$11.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1540172916897.run(Script1540172916897.groovy:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543228652387.run(TempTestSuite1543228652387.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-11-26 17:37:35 - [TEST_SUITE][FAILED] - Login Test Suite: Test Cases/Tests/Log In/TC-SIN-002 Check for empty username FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Test Objects/Pages/Page_Log In - Meta Stack Exchange/button_Log in' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element must be user-editable in order to clear it.
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-0PTJ8Q3', ip: '192.168.77.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\RONNAC~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52551}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: bbc0dcfabda5542dbb15653e43811cc5)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:981)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$11.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1540172916897.run(Script1540172916897.groovy:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543228652387.run(TempTestSuite1543228652387.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

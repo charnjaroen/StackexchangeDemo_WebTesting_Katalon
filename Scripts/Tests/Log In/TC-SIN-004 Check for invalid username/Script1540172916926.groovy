@@ -23,7 +23,7 @@ WebUI.setText(findTestObject('Test Objects/Pages/Page_Log In - Meta Stack Exchan
 
 WebUI.setEncryptedText(findTestObject('Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Password_password'), 'mrT19oHkhOlZrHldn5/zAA==')
 
-WebUI.click(findTestObject('Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_forgot_submit-button'))
+WebUI.click(findTestObject('Test Objects/Pages/Page_Log In - Meta Stack Exchange/button_Log in'))
 
 WebUI.verifyElementPresent(findTestObject('Test Objects/Pages/Page_Log In - Meta Stack Exchange/Data Validation/div_The email is not a valid e'), 
     GlobalVariable.element_timeout)

@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('Pages/02_Log In Page/The Log In Page is loaded 
 
 WebUI.setText(findTestObject('Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_Email_email'), 'charnjaroen@gmail.com')
 
-WebUI.click(findTestObject('Test Objects/Pages/Page_Log In - Meta Stack Exchange/input_forgot_submit-button'))
+WebUI.click(findTestObject('Test Objects/Pages/Page_Log In - Meta Stack Exchange/button_Log in'))
 
 WebUI.verifyElementPresent(findTestObject('Test Objects/Pages/Page_Log In - Meta Stack Exchange/Data Validation/div_Password cannot be empty.'), 
     GlobalVariable.element_timeout)

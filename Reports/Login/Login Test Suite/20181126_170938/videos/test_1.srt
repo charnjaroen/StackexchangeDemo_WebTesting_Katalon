@@ -1,0 +1,120 @@
+1
+00:00:00,889 --> 00:00:00,897
+1. callTestCase
+
+2
+00:00:02,109 --> 00:00:02,114
+1. Statement - actual_pagetitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle()
+
+3
+00:00:02,283 --> 00:00:02,286
+5. verifyMatch
+
+4
+00:00:02,325 --> 00:00:02,328
+9. verifyElementVisible
+
+5
+00:00:02,710 --> 00:00:02,720
+13. verifyTextPresent
+
+6
+00:00:05,186 --> 00:00:05,189
+17. verifyTextPresent
+
+7
+00:00:07,090 --> 00:00:07,096
+21. verifyTextPresent
+
+8
+00:00:09,226 --> 00:00:09,232
+25. verifyElementPresent
+
+9
+00:00:09,404 --> 00:00:09,413
+29. verifyTextPresent
+
+10
+00:00:11,375 --> 00:00:11,378
+33. verifyTextPresent
+
+11
+00:00:13,045 --> 00:00:13,049
+37. verifyTextPresent
+
+12
+00:00:14,814 --> 00:00:14,817
+41. verifyTextPresent
+
+13
+00:00:16,408 --> 00:00:16,413
+45. verifyTextPresent
+
+14
+00:00:18,078 --> 00:00:18,090
+49. takeScreenshot
+
+15
+00:00:18,959 --> 00:00:18,966
+5. callTestCase
+
+16
+00:00:20,292 --> 00:00:20,294
+1. waitForElementVisible
+
+17
+00:00:20,752 --> 00:00:20,757
+5. click
+
+18
+00:00:23,639 --> 00:00:23,643
+9. callTestCase
+
+19
+00:00:24,558 --> 00:00:24,561
+1. Statement - actual_pagetitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle()
+
+20
+00:00:24,632 --> 00:00:24,634
+5. verifyMatch
+
+21
+00:00:24,664 --> 00:00:24,666
+9. verifyElementPresent
+
+22
+00:00:24,762 --> 00:00:24,765
+13. verifyElementPresent
+
+23
+00:00:24,860 --> 00:00:24,882
+17. verifyElementPresent
+
+24
+00:00:24,963 --> 00:00:24,964
+21. verifyElementPresent
+
+25
+00:00:25,047 --> 00:00:25,049
+25. verifyElementPresent
+
+26
+00:00:25,171 --> 00:00:25,177
+29. verifyTextPresent
+
+27
+00:00:25,378 --> 00:00:25,381
+33. takeScreenshot
+
+28
+00:00:25,801 --> 00:00:25,803
+13. click
+
+29
+00:00:59,499 --> 00:00:59,501
+17. verifyElementPresent
+
+30
+00:01:12,364 --> 00:01:12,365
+21. verifyElementPresent
+
