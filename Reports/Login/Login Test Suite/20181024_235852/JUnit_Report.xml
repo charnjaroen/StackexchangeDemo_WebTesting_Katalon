@@ -1,0 +1,1910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login Test Suite" time="857" tests="4" failures="2" errors="0">
+   <testsuite name="Login Test Suite" tests="4" failures="2" errors="0" time="857" timestamp="2018-10-25 00:07:16" hostname="Ronnachai C - DESKTOP-0PTJ8Q3" id="Test Suites/Login/Login Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852"/>
+         <property name="logFiles" value="C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540400877743.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540400882435.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540400889313.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540400936544.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540400940629.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540400947598.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540400992966.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540400996878.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401003484.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401049004.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401052422.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401058850.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401102617.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401165965.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401166105.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401219808.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401255476.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401286067.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401316713.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401347419.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401378005.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401378096.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401410208.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401501976.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401545350.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401548637.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401580239.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401587229.png"/>
+         <property name="hostName" value="Ronnachai C - DESKTOP-0PTJ8Q3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Firefox 62.0"/>
+         <property name="hostAddress" value="192.168.43.170"/>
+         <property name="sessionId" value="5210eeab-a1be-4e5c-b0a7-d1a01c8f35fb"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Tests/Log In/TC-SIN-001 Check for empty username and password" classname="Test Cases/Tests/Log In/TC-SIN-001 Check for empty username and password" status="PASSED">
+         <system-out><![CDATA[2018-10-25 00:07:17 - [TEST_CASE][PASSED] - Test Cases/Tests/Log In/TC-SIN-001 Check for empty username and password: Test Cases/Tests/Log In/TC-SIN-001 Check for empty username and password
+
+2018-10-25 00:07:18 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-25 00:07:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-25 00:07:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-25 00:07:27 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-25 00:07:31 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-25 00:07:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-25 00:07:34 - [MESSAGE][PASSED] - Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-25 00:07:35 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-10-25 00:07:35 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully: Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully
+
+2018-10-25 00:07:36 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_top-bar js-top-bar' is visible
+
+2018-10-25 00:07:36 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_top-bar js-top-bar' is visible
+
+2018-10-25 00:07:36 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-25 00:07:37 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-25 00:07:37 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_-logo js-gps-track' is present
+
+2018-10-25 00:07:37 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_-logo js-gps-track' is present
+
+2018-10-25 00:07:37 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Tour' is present on page 
+
+2018-10-25 00:07:41 - [MESSAGE][PASSED] - Text 'Tour' is present on page 
+
+2018-10-25 00:07:41 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'About Us' is present on page 
+
+2018-10-25 00:07:44 - [MESSAGE][PASSED] - Text 'About Us' is present on page 
+
+2018-10-25 00:07:44 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Meta' is present on page 
+
+2018-10-25 00:07:47 - [MESSAGE][PASSED] - Text 'Meta' is present on page 
+
+2018-10-25 00:07:47 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/input_q' is present
+
+2018-10-25 00:07:47 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/input_q' is present
+
+2018-10-25 00:07:47 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Log In' is present on page 
+
+2018-10-25 00:07:51 - [MESSAGE][PASSED] - Text 'Log In' is present on page 
+
+2018-10-25 00:07:51 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Sign Up' is present on page 
+
+2018-10-25 00:07:54 - [MESSAGE][PASSED] - Text 'Sign Up' is present on page 
+
+2018-10-25 00:07:54 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/sectioncontent' is present
+
+2018-10-25 00:07:54 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/sectioncontent' is present
+
+2018-10-25 00:07:54 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Stack Exchange' is present on page 
+
+2018-10-25 00:07:57 - [MESSAGE][PASSED] - Text 'Stack Exchange' is present on page 
+
+2018-10-25 00:07:57 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-25 00:07:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540400877743.png]]
+
+2018-10-25 00:07:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-10-25 00:07:57 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-10-25 00:07:58 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/To click the login link: Test Cases/Pages/01_Stack Exchage Homepage/To click the login link
+
+2018-10-25 00:07:58 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-25 00:07:58 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-25 00:07:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_Log In' is clicked on
+
+2018-10-25 00:08:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_Log In' is clicked on
+
+2018-10-25 00:08:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-10-25 00:08:00 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-10-25 00:08:00 - [TEST_CASE][PASSED] - Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully: Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully
+
+2018-10-25 00:08:00 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-25 00:08:00 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-25 00:08:00 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Do you already have an account on one of these sites? Click the logo to' is present on page 
+
+2018-10-25 00:08:01 - [MESSAGE][PASSED] - Text 'Do you already have an account on one of these sites? Click the logo to' is present on page 
+
+2018-10-25 00:08:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is present
+
+2018-10-25 00:08:01 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is present
+
+2018-10-25 00:08:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_google openid_large_btn' is present
+
+2018-10-25 00:08:01 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_google openid_large_btn' is present
+
+2018-10-25 00:08:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_facebook openid_large_btn' is present
+
+2018-10-25 00:08:01 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_facebook openid_large_btn' is present
+
+2018-10-25 00:08:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_yahoo openid_large_btn' is present
+
+2018-10-25 00:08:01 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_yahoo openid_large_btn' is present
+
+2018-10-25 00:08:01 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'click here to sign up' is present on page 
+
+2018-10-25 00:08:02 - [MESSAGE][PASSED] - Text 'click here to sign up' is present on page 
+
+2018-10-25 00:08:02 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-25 00:08:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540400882435.png]]
+
+2018-10-25 00:08:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-10-25 00:08:02 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/02_Log In Page/To click the log in with stackexchange' successfully
+
+2018-10-25 00:08:02 - [TEST_CASE][PASSED] - Test Cases/Pages/02_Log In Page/To click the log in with stackexchange: Test Cases/Pages/02_Log In Page/To click the log in with stackexchange
+
+2018-10-25 00:08:02 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-25 00:08:03 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-25 00:08:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is clicked on
+
+2018-10-25 00:08:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is clicked on
+
+2018-10-25 00:08:03 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-25 00:08:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-25 00:08:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/02_Log In Page/To click the log in with stackexchange' successfully
+
+2018-10-25 00:08:08 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/iframeaffiliate-signin-iframe'
+
+2018-10-25 00:08:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_affiliate-button' is clicked on
+
+2018-10-25 00:08:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_affiliate-button' is clicked on
+
+2018-10-25 00:08:09 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/p_Invalid email address' is present
+
+2018-10-25 00:08:09 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/p_Invalid email address' is present
+
+2018-10-25 00:08:09 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-25 00:08:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540400889313.png]]
+
+2018-10-25 00:08:09 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-10-25 00:08:09 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-25 00:08:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tests/Log In/TC-SIN-002 Check for empty username" classname="Test Cases/Tests/Log In/TC-SIN-002 Check for empty username" status="PASSED">
+         <system-out><![CDATA[2018-10-25 00:08:21 - [TEST_CASE][PASSED] - Test Cases/Tests/Log In/TC-SIN-002 Check for empty username: Test Cases/Tests/Log In/TC-SIN-002 Check for empty username
+
+2018-10-25 00:08:21 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-25 00:08:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-25 00:08:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-25 00:08:27 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-25 00:08:31 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-25 00:08:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-25 00:08:34 - [MESSAGE][PASSED] - Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-25 00:08:34 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-10-25 00:08:35 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully: Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully
+
+2018-10-25 00:08:35 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_top-bar js-top-bar' is visible
+
+2018-10-25 00:08:35 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_top-bar js-top-bar' is visible
+
+2018-10-25 00:08:35 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-25 00:08:35 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-25 00:08:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_-logo js-gps-track' is present
+
+2018-10-25 00:08:35 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_-logo js-gps-track' is present
+
+2018-10-25 00:08:35 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Tour' is present on page 
+
+2018-10-25 00:08:38 - [MESSAGE][PASSED] - Text 'Tour' is present on page 
+
+2018-10-25 00:08:38 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'About Us' is present on page 
+
+2018-10-25 00:08:42 - [MESSAGE][PASSED] - Text 'About Us' is present on page 
+
+2018-10-25 00:08:42 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Meta' is present on page 
+
+2018-10-25 00:08:45 - [MESSAGE][PASSED] - Text 'Meta' is present on page 
+
+2018-10-25 00:08:45 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/input_q' is present
+
+2018-10-25 00:08:45 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/input_q' is present
+
+2018-10-25 00:08:45 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Log In' is present on page 
+
+2018-10-25 00:08:49 - [MESSAGE][PASSED] - Text 'Log In' is present on page 
+
+2018-10-25 00:08:49 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Sign Up' is present on page 
+
+2018-10-25 00:08:52 - [MESSAGE][PASSED] - Text 'Sign Up' is present on page 
+
+2018-10-25 00:08:52 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/sectioncontent' is present
+
+2018-10-25 00:08:52 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/sectioncontent' is present
+
+2018-10-25 00:08:52 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Stack Exchange' is present on page 
+
+2018-10-25 00:08:56 - [MESSAGE][PASSED] - Text 'Stack Exchange' is present on page 
+
+2018-10-25 00:08:56 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-25 00:08:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540400936544.png]]
+
+2018-10-25 00:08:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-10-25 00:08:56 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-10-25 00:08:56 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/To click the login link: Test Cases/Pages/01_Stack Exchage Homepage/To click the login link
+
+2018-10-25 00:08:56 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-25 00:08:57 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-25 00:08:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_Log In' is clicked on
+
+2018-10-25 00:08:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_Log In' is clicked on
+
+2018-10-25 00:08:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-10-25 00:08:58 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-10-25 00:08:58 - [TEST_CASE][PASSED] - Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully: Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully
+
+2018-10-25 00:08:58 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-25 00:08:58 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-25 00:08:58 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Do you already have an account on one of these sites? Click the logo to' is present on page 
+
+2018-10-25 00:08:59 - [MESSAGE][PASSED] - Text 'Do you already have an account on one of these sites? Click the logo to' is present on page 
+
+2018-10-25 00:08:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is present
+
+2018-10-25 00:08:59 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is present
+
+2018-10-25 00:08:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_google openid_large_btn' is present
+
+2018-10-25 00:08:59 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_google openid_large_btn' is present
+
+2018-10-25 00:08:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_facebook openid_large_btn' is present
+
+2018-10-25 00:08:59 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_facebook openid_large_btn' is present
+
+2018-10-25 00:08:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_yahoo openid_large_btn' is present
+
+2018-10-25 00:08:59 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_yahoo openid_large_btn' is present
+
+2018-10-25 00:08:59 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'click here to sign up' is present on page 
+
+2018-10-25 00:09:00 - [MESSAGE][PASSED] - Text 'click here to sign up' is present on page 
+
+2018-10-25 00:09:00 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-25 00:09:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540400940629.png]]
+
+2018-10-25 00:09:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-10-25 00:09:00 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/02_Log In Page/To click the log in with stackexchange' successfully
+
+2018-10-25 00:09:00 - [TEST_CASE][PASSED] - Test Cases/Pages/02_Log In Page/To click the log in with stackexchange: Test Cases/Pages/02_Log In Page/To click the log in with stackexchange
+
+2018-10-25 00:09:00 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-25 00:09:01 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-25 00:09:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is clicked on
+
+2018-10-25 00:09:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is clicked on
+
+2018-10-25 00:09:01 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-25 00:09:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-25 00:09:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/02_Log In Page/To click the log in with stackexchange' successfully
+
+2018-10-25 00:09:06 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/iframeaffiliate-signin-iframe'
+
+2018-10-25 00:09:06 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_password'
+
+2018-10-25 00:09:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_password'
+
+2018-10-25 00:09:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_affiliate-button' is clicked on
+
+2018-10-25 00:09:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_affiliate-button' is clicked on
+
+2018-10-25 00:09:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/p_Invalid email address' is present
+
+2018-10-25 00:09:07 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/p_Invalid email address' is present
+
+2018-10-25 00:09:07 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-25 00:09:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540400947598.png]]
+
+2018-10-25 00:09:07 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-10-25 00:09:07 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-25 00:09:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tests/Log In/TC-SIN-003 Check for empty password" classname="Test Cases/Tests/Log In/TC-SIN-003 Check for empty password" status="PASSED">
+         <system-out><![CDATA[2018-10-25 00:09:19 - [TEST_CASE][PASSED] - Test Cases/Tests/Log In/TC-SIN-003 Check for empty password: Test Cases/Tests/Log In/TC-SIN-003 Check for empty password
+
+2018-10-25 00:09:19 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-25 00:09:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-25 00:09:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-25 00:09:26 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-25 00:09:29 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-25 00:09:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-25 00:09:32 - [MESSAGE][PASSED] - Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-25 00:09:32 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-10-25 00:09:32 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully: Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully
+
+2018-10-25 00:09:32 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_top-bar js-top-bar' is visible
+
+2018-10-25 00:09:33 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_top-bar js-top-bar' is visible
+
+2018-10-25 00:09:33 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-25 00:09:33 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-25 00:09:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_-logo js-gps-track' is present
+
+2018-10-25 00:09:33 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_-logo js-gps-track' is present
+
+2018-10-25 00:09:33 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Tour' is present on page 
+
+2018-10-25 00:09:36 - [MESSAGE][PASSED] - Text 'Tour' is present on page 
+
+2018-10-25 00:09:36 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'About Us' is present on page 
+
+2018-10-25 00:09:39 - [MESSAGE][PASSED] - Text 'About Us' is present on page 
+
+2018-10-25 00:09:39 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Meta' is present on page 
+
+2018-10-25 00:09:43 - [MESSAGE][PASSED] - Text 'Meta' is present on page 
+
+2018-10-25 00:09:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/input_q' is present
+
+2018-10-25 00:09:43 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/input_q' is present
+
+2018-10-25 00:09:43 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Log In' is present on page 
+
+2018-10-25 00:09:46 - [MESSAGE][PASSED] - Text 'Log In' is present on page 
+
+2018-10-25 00:09:46 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Sign Up' is present on page 
+
+2018-10-25 00:09:49 - [MESSAGE][PASSED] - Text 'Sign Up' is present on page 
+
+2018-10-25 00:09:49 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/sectioncontent' is present
+
+2018-10-25 00:09:49 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/sectioncontent' is present
+
+2018-10-25 00:09:49 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Stack Exchange' is present on page 
+
+2018-10-25 00:09:52 - [MESSAGE][PASSED] - Text 'Stack Exchange' is present on page 
+
+2018-10-25 00:09:52 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-25 00:09:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540400992966.png]]
+
+2018-10-25 00:09:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-10-25 00:09:53 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-10-25 00:09:53 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/To click the login link: Test Cases/Pages/01_Stack Exchage Homepage/To click the login link
+
+2018-10-25 00:09:53 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-25 00:09:53 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-25 00:09:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_Log In' is clicked on
+
+2018-10-25 00:09:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_Log In' is clicked on
+
+2018-10-25 00:09:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-10-25 00:09:54 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-10-25 00:09:54 - [TEST_CASE][PASSED] - Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully: Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully
+
+2018-10-25 00:09:54 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-25 00:09:54 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-25 00:09:54 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Do you already have an account on one of these sites? Click the logo to' is present on page 
+
+2018-10-25 00:09:55 - [MESSAGE][PASSED] - Text 'Do you already have an account on one of these sites? Click the logo to' is present on page 
+
+2018-10-25 00:09:55 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is present
+
+2018-10-25 00:09:55 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is present
+
+2018-10-25 00:09:55 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_google openid_large_btn' is present
+
+2018-10-25 00:09:55 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_google openid_large_btn' is present
+
+2018-10-25 00:09:55 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_facebook openid_large_btn' is present
+
+2018-10-25 00:09:55 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_facebook openid_large_btn' is present
+
+2018-10-25 00:09:55 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_yahoo openid_large_btn' is present
+
+2018-10-25 00:09:55 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_yahoo openid_large_btn' is present
+
+2018-10-25 00:09:55 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'click here to sign up' is present on page 
+
+2018-10-25 00:09:56 - [MESSAGE][PASSED] - Text 'click here to sign up' is present on page 
+
+2018-10-25 00:09:56 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-25 00:09:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540400996878.png]]
+
+2018-10-25 00:09:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-10-25 00:09:57 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/02_Log In Page/To click the log in with stackexchange' successfully
+
+2018-10-25 00:09:57 - [TEST_CASE][PASSED] - Test Cases/Pages/02_Log In Page/To click the log in with stackexchange: Test Cases/Pages/02_Log In Page/To click the log in with stackexchange
+
+2018-10-25 00:09:57 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-25 00:09:57 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-25 00:09:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is clicked on
+
+2018-10-25 00:09:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is clicked on
+
+2018-10-25 00:09:57 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-25 00:10:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-25 00:10:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/02_Log In Page/To click the log in with stackexchange' successfully
+
+2018-10-25 00:10:02 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/iframeaffiliate-signin-iframe'
+
+2018-10-25 00:10:02 - [TEST_STEP][PASSED] - setText: Text 'charnjaroen@gmail.com' is set on object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_email'
+
+2018-10-25 00:10:02 - [MESSAGE][PASSED] - Text 'charnjaroen@gmail.com' is set on object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_email'
+
+2018-10-25 00:10:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_affiliate-button' is clicked on
+
+2018-10-25 00:10:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_affiliate-button' is clicked on
+
+2018-10-25 00:10:03 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/p_Invalid email address' is present
+
+2018-10-25 00:10:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-25 00:10:03 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/p_Invalid email address' is present
+
+2018-10-25 00:10:03 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-25 00:10:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401003484.png]]
+
+2018-10-25 00:10:03 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-10-25 00:10:03 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-25 00:10:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tests/Log In/TC-SIN-004 Check for invalid username" classname="Test Cases/Tests/Log In/TC-SIN-004 Check for invalid username" status="PASSED">
+         <system-out><![CDATA[2018-10-25 00:10:15 - [TEST_CASE][PASSED] - Test Cases/Tests/Log In/TC-SIN-004 Check for invalid username: Test Cases/Tests/Log In/TC-SIN-004 Check for invalid username
+
+2018-10-25 00:10:15 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-25 00:10:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-25 00:10:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-25 00:10:21 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-25 00:10:25 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-25 00:10:25 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-25 00:10:28 - [MESSAGE][PASSED] - Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-25 00:10:28 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-10-25 00:10:28 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully: Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully
+
+2018-10-25 00:10:28 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_top-bar js-top-bar' is visible
+
+2018-10-25 00:10:28 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_top-bar js-top-bar' is visible
+
+2018-10-25 00:10:28 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-25 00:10:28 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-25 00:10:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_-logo js-gps-track' is present
+
+2018-10-25 00:10:28 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_-logo js-gps-track' is present
+
+2018-10-25 00:10:28 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Tour' is present on page 
+
+2018-10-25 00:10:32 - [MESSAGE][PASSED] - Text 'Tour' is present on page 
+
+2018-10-25 00:10:32 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'About Us' is present on page 
+
+2018-10-25 00:10:35 - [MESSAGE][PASSED] - Text 'About Us' is present on page 
+
+2018-10-25 00:10:35 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Meta' is present on page 
+
+2018-10-25 00:10:38 - [MESSAGE][PASSED] - Text 'Meta' is present on page 
+
+2018-10-25 00:10:38 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/input_q' is present
+
+2018-10-25 00:10:38 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/input_q' is present
+
+2018-10-25 00:10:38 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Log In' is present on page 
+
+2018-10-25 00:10:41 - [MESSAGE][PASSED] - Text 'Log In' is present on page 
+
+2018-10-25 00:10:41 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Sign Up' is present on page 
+
+2018-10-25 00:10:45 - [MESSAGE][PASSED] - Text 'Sign Up' is present on page 
+
+2018-10-25 00:10:45 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/sectioncontent' is present
+
+2018-10-25 00:10:45 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/sectioncontent' is present
+
+2018-10-25 00:10:45 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Stack Exchange' is present on page 
+
+2018-10-25 00:10:48 - [MESSAGE][PASSED] - Text 'Stack Exchange' is present on page 
+
+2018-10-25 00:10:48 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-25 00:10:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401049004.png]]
+
+2018-10-25 00:10:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-10-25 00:10:49 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-10-25 00:10:49 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/To click the login link: Test Cases/Pages/01_Stack Exchage Homepage/To click the login link
+
+2018-10-25 00:10:49 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-25 00:10:49 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-25 00:10:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_Log In' is clicked on
+
+2018-10-25 00:10:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_Log In' is clicked on
+
+2018-10-25 00:10:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-10-25 00:10:50 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-10-25 00:10:50 - [TEST_CASE][PASSED] - Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully: Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully
+
+2018-10-25 00:10:50 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-25 00:10:50 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-25 00:10:50 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Do you already have an account on one of these sites? Click the logo to' is present on page 
+
+2018-10-25 00:10:51 - [MESSAGE][PASSED] - Text 'Do you already have an account on one of these sites? Click the logo to' is present on page 
+
+2018-10-25 00:10:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is present
+
+2018-10-25 00:10:51 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is present
+
+2018-10-25 00:10:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_google openid_large_btn' is present
+
+2018-10-25 00:10:51 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_google openid_large_btn' is present
+
+2018-10-25 00:10:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_facebook openid_large_btn' is present
+
+2018-10-25 00:10:51 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_facebook openid_large_btn' is present
+
+2018-10-25 00:10:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_yahoo openid_large_btn' is present
+
+2018-10-25 00:10:51 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_yahoo openid_large_btn' is present
+
+2018-10-25 00:10:51 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'click here to sign up' is present on page 
+
+2018-10-25 00:10:52 - [MESSAGE][PASSED] - Text 'click here to sign up' is present on page 
+
+2018-10-25 00:10:52 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-25 00:10:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401052422.png]]
+
+2018-10-25 00:10:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-10-25 00:10:52 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/02_Log In Page/To click the log in with stackexchange' successfully
+
+2018-10-25 00:10:52 - [TEST_CASE][PASSED] - Test Cases/Pages/02_Log In Page/To click the log in with stackexchange: Test Cases/Pages/02_Log In Page/To click the log in with stackexchange
+
+2018-10-25 00:10:52 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-25 00:10:52 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-25 00:10:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is clicked on
+
+2018-10-25 00:10:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is clicked on
+
+2018-10-25 00:10:52 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-25 00:10:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-25 00:10:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/02_Log In Page/To click the log in with stackexchange' successfully
+
+2018-10-25 00:10:57 - [TEST_STEP][PASSED] - switchToFrame: Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-25 00:10:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-25 00:10:57 - [TEST_STEP][PASSED] - setText: Text 'charnjaroen' is set on object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_email'
+
+2018-10-25 00:10:57 - [MESSAGE][PASSED] - Text 'charnjaroen' is set on object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_email'
+
+2018-10-25 00:10:57 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_password'
+
+2018-10-25 00:10:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_password'
+
+2018-10-25 00:10:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_affiliate-button' is clicked on
+
+2018-10-25 00:10:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_affiliate-button' is clicked on
+
+2018-10-25 00:10:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/p_Invalid email address' is present
+
+2018-10-25 00:10:58 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/p_Invalid email address' is present
+
+2018-10-25 00:10:58 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-25 00:10:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401058850.png]]
+
+2018-10-25 00:10:58 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-10-25 00:10:58 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-25 00:11:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tests/Log In/TC-SIN-005 Check for invalid password" classname="Test Cases/Tests/Log In/TC-SIN-005 Check for invalid password" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Text 'Do you already have an account on one of these sites? Click the logo to' is not present on page 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at Script1540164655840.run(Script1540164655840.groovy:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:99)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1540172916939.run(Script1540172916939.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540400332811.run(TempTestSuite1540400332811.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-10-25 00:11:10 - [TEST_CASE][FAILED] - Test Cases/Tests/Log In/TC-SIN-005 Check for invalid password: Test Cases/Tests/Log In/TC-SIN-005 Check for invalid password FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Text 'Do you already have an account on one of these sites? Click the logo to' is not present on page 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at Script1540164655840.run(Script1540164655840.groovy:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:99)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1540172916939.run(Script1540172916939.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540400332811.run(TempTestSuite1540400332811.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-10-25 00:11:10 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-25 00:11:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-25 00:11:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-25 00:11:16 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-25 00:11:20 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-25 00:11:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-25 00:11:23 - [MESSAGE][PASSED] - Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-25 00:11:23 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-10-25 00:11:23 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully: Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully
+
+2018-10-25 00:11:23 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_top-bar js-top-bar' is visible
+
+2018-10-25 00:11:24 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_top-bar js-top-bar' is visible
+
+2018-10-25 00:11:24 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-25 00:11:24 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-25 00:11:24 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_-logo js-gps-track' is present
+
+2018-10-25 00:11:24 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_-logo js-gps-track' is present
+
+2018-10-25 00:11:24 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Tour' is present on page 
+
+2018-10-25 00:11:26 - [MESSAGE][PASSED] - Text 'Tour' is present on page 
+
+2018-10-25 00:11:26 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'About Us' is present on page 
+
+2018-10-25 00:11:29 - [MESSAGE][PASSED] - Text 'About Us' is present on page 
+
+2018-10-25 00:11:29 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Meta' is present on page 
+
+2018-10-25 00:11:32 - [MESSAGE][PASSED] - Text 'Meta' is present on page 
+
+2018-10-25 00:11:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/input_q' is present
+
+2018-10-25 00:11:32 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/input_q' is present
+
+2018-10-25 00:11:32 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Log In' is present on page 
+
+2018-10-25 00:11:36 - [MESSAGE][PASSED] - Text 'Log In' is present on page 
+
+2018-10-25 00:11:36 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Sign Up' is present on page 
+
+2018-10-25 00:11:39 - [MESSAGE][PASSED] - Text 'Sign Up' is present on page 
+
+2018-10-25 00:11:39 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/sectioncontent' is present
+
+2018-10-25 00:11:39 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/sectioncontent' is present
+
+2018-10-25 00:11:39 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Stack Exchange' is present on page 
+
+2018-10-25 00:11:42 - [MESSAGE][PASSED] - Text 'Stack Exchange' is present on page 
+
+2018-10-25 00:11:42 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-25 00:11:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401102617.png]]
+
+2018-10-25 00:11:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-10-25 00:11:42 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-10-25 00:11:42 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/To click the login link: Test Cases/Pages/01_Stack Exchage Homepage/To click the login link
+
+2018-10-25 00:11:42 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-25 00:11:42 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-25 00:11:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_Log In' is clicked on
+
+2018-10-25 00:11:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_Log In' is clicked on
+
+2018-10-25 00:11:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-10-25 00:11:48 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' (Root cause: Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' failed)
+
+2018-10-25 00:11:48 - [TEST_CASE][FAILED] - Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully: Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Text 'Do you already have an account on one of these sites? Click the logo to' is not present on page 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at Script1540164655840.run(Script1540164655840.groovy:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:99)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1540172916939.run(Script1540172916939.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540400332811.run(TempTestSuite1540400332811.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-10-25 00:11:48 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-25 00:11:48 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-25 00:11:48 - [TEST_STEP][FAILED] - verifyTextPresent: Text 'Do you already have an account on one of these sites? Click the logo to' is not present on page 
+
+2018-10-25 00:11:51 - [MESSAGE][FAILED] - Text 'Do you already have an account on one of these sites? Click the logo to' is not present on page 
+
+2018-10-25 00:11:51 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' located by 'By.xpath: //a[@title = 'log in with Stack_Exchange' and @href = concat('javascript:openid.signin(' , "'" , 'stack_exchange' , "'" , ');')]' not found)
+
+2018-10-25 00:12:46 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' located by 'By.xpath: //a[@title = 'log in with Stack_Exchange' and @href = concat('javascript:openid.signin(' , "'" , 'stack_exchange' , "'" , ');')]' not found
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401165965.png]]
+
+2018-10-25 00:12:46 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' located by 'By.xpath: //a[@title = 'log in with Stack_Exchange' and @href = concat('javascript:openid.signin(' , "'" , 'stack_exchange' , "'" , ');')]' not found)
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401166105.png]]
+
+2018-10-25 00:12:46 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' (Root cause: Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' failed)
+
+2018-10-25 00:12:46 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Pages/02_Log In Page/To click the log in with stackexchange' (Root cause: Call Test Case 'Test Cases/Pages/02_Log In Page/To click the log in with stackexchange' failed)
+
+2018-10-25 00:12:46 - [TEST_CASE][FAILED] - Test Cases/Pages/02_Log In Page/To click the log in with stackexchange: Test Cases/Pages/02_Log In Page/To click the log in with stackexchange FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' located by 'By.xpath: //a[@title = 'log in with Stack_Exchange' and @href = concat('javascript:openid.signin(' , "'" , 'stack_exchange' , "'" , ');')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at Script1540201750989.run(Script1540201750989.groovy:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:99)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1540172916939.run(Script1540172916939.groovy:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540400332811.run(TempTestSuite1540400332811.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-10-25 00:12:46 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-25 00:12:46 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-25 00:12:46 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' located by 'By.xpath: //a[@title = 'log in with Stack_Exchange' and @href = concat('javascript:openid.signin(' , "'" , 'stack_exchange' , "'" , ');')]' not found)
+
+2018-10-25 00:13:39 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' located by 'By.xpath: //a[@title = 'log in with Stack_Exchange' and @href = concat('javascript:openid.signin(' , "'" , 'stack_exchange' , "'" , ');')]' not found)
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401219808.png]]
+
+2018-10-25 00:13:39 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-25 00:13:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-25 00:13:44 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Pages/02_Log In Page/To click the log in with stackexchange' (Root cause: Call Test Case 'Test Cases/Pages/02_Log In Page/To click the log in with stackexchange' failed)
+
+2018-10-25 00:13:44 - [TEST_STEP][FAILED] - switchToFrame: Unable to verify image 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/iframeaffiliate-signin-iframe' present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/iframeaffiliate-signin-iframe' located by 'By.xpath: //iframe[@id='affiliate-signin-iframe']' not found)
+
+2018-10-25 00:14:15 - [MESSAGE][FAILED] - Unable to verify image 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/iframeaffiliate-signin-iframe' present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/iframeaffiliate-signin-iframe' located by 'By.xpath: //iframe[@id='affiliate-signin-iframe']' not found)
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401255476.png]]
+
+2018-10-25 00:14:15 - [TEST_STEP][FAILED] - setText: Unable to set text 'charnjaroen@gmail.com' of object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_email' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_email' located by 'By.xpath: //input[@id='email']' not found)
+
+2018-10-25 00:14:46 - [MESSAGE][FAILED] - Unable to set text 'charnjaroen@gmail.com' of object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_email' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_email' located by 'By.xpath: //input[@id='email']' not found)
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401286067.png]]
+
+2018-10-25 00:14:46 - [TEST_STEP][FAILED] - setEncryptedText: Unable to set encrypted text for object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_password' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_password' located by 'By.xpath: //input[@id='password']' not found)
+
+2018-10-25 00:15:16 - [MESSAGE][FAILED] - Unable to set encrypted text for object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_password' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_password' located by 'By.xpath: //input[@id='password']' not found)
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401316713.png]]
+
+2018-10-25 00:15:16 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_affiliate-button' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_affiliate-button' located by 'By.xpath: //input[@value='Sign In']' not found)
+
+2018-10-25 00:15:47 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_affiliate-button' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_affiliate-button' located by 'By.xpath: //input[@value='Sign In']' not found)
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401347419.png]]
+
+2018-10-25 00:15:47 - [TEST_STEP][FAILED] - verifyElementPresent: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/p_Invalid email address' located by 'By.xpath: //div[@id='framed-content']/div[2]/p' not found
+
+2018-10-25 00:16:18 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/p_Invalid email address' located by 'By.xpath: //div[@id='framed-content']/div[2]/p' not found
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401378005.png]]
+
+2018-10-25 00:16:18 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-25 00:16:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401378096.png]]
+
+2018-10-25 00:16:18 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-10-25 00:16:18 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-25 00:16:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-10-25 00:11:10 - [TEST_CASE][FAILED] - Test Cases/Tests/Log In/TC-SIN-005 Check for invalid password: Test Cases/Tests/Log In/TC-SIN-005 Check for invalid password FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Text 'Do you already have an account on one of these sites? Click the logo to' is not present on page 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at Script1540164655840.run(Script1540164655840.groovy:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:99)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1540172916939.run(Script1540172916939.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540400332811.run(TempTestSuite1540400332811.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tests/Log In/TC-SIN-006 Check for valid username and password via stackexchange" classname="Test Cases/Tests/Log In/TC-SIN-006 Check for valid username and password via stackexchange" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_-logo js-gps-track' located by 'By.xpath: //a[@href = 'https://stackexchange.com']' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Script1540164816800.run(Script1540164816800.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:99)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1540293206003.run(Script1540293206003.groovy:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540400332811.run(TempTestSuite1540400332811.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-10-25 00:16:29 - [TEST_CASE][FAILED] - Test Cases/Tests/Log In/TC-SIN-006 Check for valid username and password via stackexchange: Test Cases/Tests/Log In/TC-SIN-006 Check for valid username and password via stackexchange FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_-logo js-gps-track' located by 'By.xpath: //a[@href = 'https://stackexchange.com']' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Script1540164816800.run(Script1540164816800.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:99)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1540293206003.run(Script1540293206003.groovy:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540400332811.run(TempTestSuite1540400332811.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-10-25 00:16:29 - [TEST_STEP][FAILED] - Start listener action : beforeTestcase: Unable to navigate to 'https://stackexchange.com/' (Root cause: org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//stackexchange.com/&c=UTF-8&f=regular&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20stackexchange.com.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-0PTJ8Q3', ip: '192.168.43.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5736, moz:profile: C:\Users\Ronnachai C\AppDat..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 5210eeab-a1be-4e5c-b0a7-d1a01c8f35fb)
+
+2018-10-25 00:16:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-25 00:16:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-25 00:16:34 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-25 00:16:38 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-25 00:16:38 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'https://stackexchange.com/' (Root cause: org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//stackexchange.com/&c=UTF-8&f=regular&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20stackexchange.com.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-0PTJ8Q3', ip: '192.168.43.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5736, moz:profile: C:\Users\Ronnachai C\AppDat..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 5210eeab-a1be-4e5c-b0a7-d1a01c8f35fb)
+
+2018-10-25 00:16:50 - [MESSAGE][FAILED] - Unable to navigate to 'https://stackexchange.com/' (Root cause: org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//stackexchange.com/&c=UTF-8&f=regular&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20stackexchange.com.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-0PTJ8Q3', ip: '192.168.43.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5736, moz:profile: C:\Users\Ronnachai C\AppDat..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 5210eeab-a1be-4e5c-b0a7-d1a01c8f35fb)
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401410208.png]]
+
+2018-10-25 00:16:50 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' (Root cause: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' failed)
+
+2018-10-25 00:16:50 - [TEST_CASE][FAILED] - Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully: Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_-logo js-gps-track' located by 'By.xpath: //a[@href = 'https://stackexchange.com']' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Script1540164816800.run(Script1540164816800.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:99)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1540293206003.run(Script1540293206003.groovy:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540400332811.run(TempTestSuite1540400332811.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-10-25 00:16:50 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_top-bar js-top-bar' located by 'By.xpath: /html[1]/body[1]/div[@class="wrapper"]/header[@class="top-bar js-top-bar"]' not found
+
+2018-10-25 00:17:20 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_top-bar js-top-bar' located by 'By.xpath: /html[1]/body[1]/div[@class="wrapper"]/header[@class="top-bar js-top-bar"]' not found
+
+2018-10-25 00:17:20 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' located by 'By.xpath: /html[1]/body[1]/div[@class="wrapper"]/header[@class="siteHeader"]' not found
+
+2018-10-25 00:17:51 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' located by 'By.xpath: /html[1]/body[1]/div[@class="wrapper"]/header[@class="siteHeader"]' not found
+
+2018-10-25 00:17:51 - [TEST_STEP][FAILED] - verifyElementPresent: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_-logo js-gps-track' located by 'By.xpath: //a[@href = 'https://stackexchange.com']' not found
+
+2018-10-25 00:18:22 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_-logo js-gps-track' located by 'By.xpath: //a[@href = 'https://stackexchange.com']' not found
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401501976.png]]
+
+2018-10-25 00:18:22 - [TEST_STEP][FAILED] - verifyTextPresent: Text 'Tour' is not present on page 
+
+2018-10-25 00:18:22 - [MESSAGE][FAILED] - Text 'Tour' is not present on page 
+
+2018-10-25 00:18:22 - [TEST_STEP][FAILED] - verifyTextPresent: Text 'About Us' is not present on page 
+
+2018-10-25 00:18:22 - [MESSAGE][FAILED] - Text 'About Us' is not present on page 
+
+2018-10-25 00:18:22 - [TEST_STEP][FAILED] - verifyTextPresent: Text 'Meta' is not present on page 
+
+2018-10-25 00:18:22 - [MESSAGE][FAILED] - Text 'Meta' is not present on page 
+
+2018-10-25 00:18:22 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/input_q' is present
+
+2018-10-25 00:18:53 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/input_q' is present
+
+2018-10-25 00:18:53 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Log In' is present on page 
+
+2018-10-25 00:18:58 - [MESSAGE][PASSED] - Text 'Log In' is present on page 
+
+2018-10-25 00:18:58 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Sign Up' is present on page 
+
+2018-10-25 00:19:01 - [MESSAGE][PASSED] - Text 'Sign Up' is present on page 
+
+2018-10-25 00:19:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/sectioncontent' is present
+
+2018-10-25 00:19:01 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/sectioncontent' is present
+
+2018-10-25 00:19:01 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Stack Exchange' is present on page 
+
+2018-10-25 00:19:05 - [MESSAGE][PASSED] - Text 'Stack Exchange' is present on page 
+
+2018-10-25 00:19:05 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-25 00:19:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401545350.png]]
+
+2018-10-25 00:19:05 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' (Root cause: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' failed)
+
+2018-10-25 00:19:05 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-10-25 00:19:05 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/To click the login link: Test Cases/Pages/01_Stack Exchage Homepage/To click the login link
+
+2018-10-25 00:19:05 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-25 00:19:05 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-25 00:19:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_Log In' is clicked on
+
+2018-10-25 00:19:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_Log In' is clicked on
+
+2018-10-25 00:19:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-10-25 00:19:06 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-10-25 00:19:06 - [TEST_CASE][PASSED] - Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully: Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully
+
+2018-10-25 00:19:06 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-25 00:19:06 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-25 00:19:06 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Do you already have an account on one of these sites? Click the logo to' is present on page 
+
+2018-10-25 00:19:07 - [MESSAGE][PASSED] - Text 'Do you already have an account on one of these sites? Click the logo to' is present on page 
+
+2018-10-25 00:19:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is present
+
+2018-10-25 00:19:07 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is present
+
+2018-10-25 00:19:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_google openid_large_btn' is present
+
+2018-10-25 00:19:07 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_google openid_large_btn' is present
+
+2018-10-25 00:19:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_facebook openid_large_btn' is present
+
+2018-10-25 00:19:07 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_facebook openid_large_btn' is present
+
+2018-10-25 00:19:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_yahoo openid_large_btn' is present
+
+2018-10-25 00:19:07 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_yahoo openid_large_btn' is present
+
+2018-10-25 00:19:07 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'click here to sign up' is present on page 
+
+2018-10-25 00:19:08 - [MESSAGE][PASSED] - Text 'click here to sign up' is present on page 
+
+2018-10-25 00:19:08 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-25 00:19:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401548637.png]]
+
+2018-10-25 00:19:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-10-25 00:19:08 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/02_Log In Page/To click the log in with stackexchange' successfully
+
+2018-10-25 00:19:08 - [TEST_CASE][PASSED] - Test Cases/Pages/02_Log In Page/To click the log in with stackexchange: Test Cases/Pages/02_Log In Page/To click the log in with stackexchange
+
+2018-10-25 00:19:08 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-25 00:19:09 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-25 00:19:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is clicked on
+
+2018-10-25 00:19:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is clicked on
+
+2018-10-25 00:19:09 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-25 00:19:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-25 00:19:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/02_Log In Page/To click the log in with stackexchange' successfully
+
+2018-10-25 00:19:14 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/iframeaffiliate-signin-iframe'
+
+2018-10-25 00:19:14 - [TEST_STEP][PASSED] - setText: Text 'charnjaroen@gmail.com' is set on object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_email'
+
+2018-10-25 00:19:14 - [MESSAGE][PASSED] - Text 'charnjaroen@gmail.com' is set on object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_email'
+
+2018-10-25 00:19:14 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_password'
+
+2018-10-25 00:19:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_password'
+
+2018-10-25 00:19:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_affiliate-button' is clicked on
+
+2018-10-25 00:19:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_affiliate-button' is clicked on
+
+2018-10-25 00:19:18 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-10-25 00:19:28 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-10-25 00:19:28 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2018-10-25 00:19:28 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/03_Dashboard Page/The Dashboard Page is loaded successfully' successfully
+
+2018-10-25 00:19:28 - [TEST_CASE][PASSED] - Test Cases/Pages/03_Dashboard Page/The Dashboard Page is loaded successfully: Test Cases/Pages/03_Dashboard Page/The Dashboard Page is loaded successfully
+
+2018-10-25 00:19:28 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/header_Stack Exchange' is visible
+
+2018-10-25 00:19:29 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/header_Stack Exchange' is visible
+
+2018-10-25 00:19:29 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Tour' is present on page 
+
+2018-10-25 00:19:32 - [MESSAGE][PASSED] - Text 'Tour' is present on page 
+
+2018-10-25 00:19:32 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'About Us' is present on page 
+
+2018-10-25 00:19:36 - [MESSAGE][PASSED] - Text 'About Us' is present on page 
+
+2018-10-25 00:19:36 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Meta' is present on page 
+
+2018-10-25 00:19:39 - [MESSAGE][PASSED] - Text 'Meta' is present on page 
+
+2018-10-25 00:19:39 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/a_Meta_my-profile js-gps-track' is visible
+
+2018-10-25 00:19:39 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/a_Meta_my-profile js-gps-track' is visible
+
+2018-10-25 00:19:39 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/a_Meta_-link js-inbox-button' is visible
+
+2018-10-25 00:19:40 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/a_Meta_-link js-inbox-button' is visible
+
+2018-10-25 00:19:40 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/a_Meta_-link js-achievements-b' is visible
+
+2018-10-25 00:19:40 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/a_Meta_-link js-achievements-b' is visible
+
+2018-10-25 00:19:40 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/a_Meta_-link js-site-switcher-' is visible
+
+2018-10-25 00:19:40 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/a_Meta_-link js-site-switcher-' is visible
+
+2018-10-25 00:19:40 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-25 00:19:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401580239.png]]
+
+2018-10-25 00:19:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/03_Dashboard Page/The Dashboard Page is loaded successfully' successfully
+
+2018-10-25 00:19:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/03_Dashboard Page/To click the user profile' successfully
+
+2018-10-25 00:19:40 - [TEST_CASE][PASSED] - Test Cases/Pages/03_Dashboard Page/To click the user profile: Test Cases/Pages/03_Dashboard Page/To click the user profile
+
+2018-10-25 00:19:40 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/header_Stack Exchange' is visible
+
+2018-10-25 00:19:40 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/header_Stack Exchange' is visible
+
+2018-10-25 00:19:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/a_Meta_my-profile js-gps-track' is clicked on
+
+2018-10-25 00:19:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/a_Meta_my-profile js-gps-track' is clicked on
+
+2018-10-25 00:19:42 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-25 00:19:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-25 00:19:47 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Test Objects/Pages/Page_User_Stack Exchange/a_account14581415' is visible
+
+2018-10-25 00:19:47 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_User_Stack Exchange/a_account14581415' is visible
+
+2018-10-25 00:19:47 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-25 00:19:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181024_235852\\1540401587229.png]]
+
+2018-10-25 00:19:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/03_Dashboard Page/To click the user profile' successfully
+
+2018-10-25 00:19:47 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/03_Dashboard Page/To click the logout link' successfully
+
+2018-10-25 00:19:47 - [TEST_CASE][PASSED] - Test Cases/Pages/03_Dashboard Page/To click the logout link: Test Cases/Pages/03_Dashboard Page/To click the logout link
+
+2018-10-25 00:19:47 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/header_Stack Exchange' is visible
+
+2018-10-25 00:19:47 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/header_Stack Exchange' is visible
+
+2018-10-25 00:19:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/a_Meta_-link js-site-switcher-' is clicked on
+
+2018-10-25 00:19:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/a_Meta_-link js-site-switcher-' is clicked on
+
+2018-10-25 00:19:48 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-10-25 00:19:58 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-10-25 00:19:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log Out/a_log out' is clicked on
+
+2018-10-25 00:19:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log Out/a_log out' is clicked on
+
+2018-10-25 00:19:59 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-10-25 00:19:59 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-10-25 00:19:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log Out/input_superuser.com_everywhere' is clicked on
+
+2018-10-25 00:19:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log Out/input_superuser.com_everywhere' is clicked on
+
+2018-10-25 00:19:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log Out/input_cancel_fr' is clicked on
+
+2018-10-25 00:21:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log Out/input_cancel_fr' is clicked on
+
+2018-10-25 00:21:05 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-10-25 00:21:20 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-10-25 00:21:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/03_Dashboard Page/To click the logout link' successfully
+
+2018-10-25 00:21:20 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-10-25 00:21:20 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-25 00:21:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-10-25 00:16:29 - [TEST_CASE][FAILED] - Test Cases/Tests/Log In/TC-SIN-006 Check for valid username and password via stackexchange: Test Cases/Tests/Log In/TC-SIN-006 Check for valid username and password via stackexchange FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_-logo js-gps-track' located by 'By.xpath: //a[@href = 'https://stackexchange.com']' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at Script1540164816800.run(Script1540164816800.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:99)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1540293206003.run(Script1540293206003.groovy:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540400332811.run(TempTestSuite1540400332811.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-25 00:07:16 - [TEST_SUITE][FAILED] - Login Test Suite: Test Cases/Tests/Log In/TC-SIN-005 Check for invalid password FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Text 'Do you already have an account on one of these sites? Click the logo to' is not present on page 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at Script1540164655840.run(Script1540164655840.groovy:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:99)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1540172916939.run(Script1540172916939.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540400332811.run(TempTestSuite1540400332811.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-10-25 00:07:16 - [TEST_SUITE][FAILED] - Login Test Suite: Test Cases/Tests/Log In/TC-SIN-005 Check for invalid password FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Text 'Do you already have an account on one of these sites? Click the logo to' is not present on page 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at Script1540164655840.run(Script1540164655840.groovy:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:99)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1540172916939.run(Script1540172916939.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540400332811.run(TempTestSuite1540400332811.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

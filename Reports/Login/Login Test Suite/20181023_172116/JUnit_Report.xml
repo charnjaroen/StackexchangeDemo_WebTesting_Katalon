@@ -1,0 +1,1154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login Test Suite" time="306" tests="6" failures="0" errors="0">
+   <testsuite name="Login Test Suite" tests="6" failures="0" errors="0" time="306" timestamp="2018-10-23 17:21:25" hostname="Ronnachai C - DESKTOP-0PTJ8Q3" id="Test Suites/Login/Login Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116"/>
+         <property name="logFiles" value="C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290109161.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290114061.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290121720.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290141152.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290212607.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290220814.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290240470.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290243731.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290251541.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290269381.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290272942.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290280620.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290298804.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290301989.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290309616.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290326596.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290329916.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290351919.png, C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290359046.png"/>
+         <property name="hostName" value="Ronnachai C - DESKTOP-0PTJ8Q3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 70.0.3538.67"/>
+         <property name="hostAddress" value="192.168.43.170"/>
+         <property name="sessionId" value="7a47696a05f323ebc67969c7fed3e239"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Tests/Log In/TC-SIN-001 Check for empty username and password" classname="Test Cases/Tests/Log In/TC-SIN-001 Check for empty username and password" status="PASSED">
+         <system-out><![CDATA[2018-10-23 17:21:26 - [TEST_CASE][PASSED] - Test Cases/Tests/Log In/TC-SIN-001 Check for empty username and password: Test Cases/Tests/Log In/TC-SIN-001 Check for empty username and password
+
+2018-10-23 17:21:26 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-23 17:21:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-23 17:21:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-23 17:21:32 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-23 17:21:33 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-23 17:21:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-23 17:21:37 - [MESSAGE][PASSED] - Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-23 17:21:38 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-10-23 17:21:38 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully: Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully
+
+2018-10-23 17:21:38 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_top-bar js-top-bar' is visible
+
+2018-10-23 17:21:39 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_top-bar js-top-bar' is visible
+
+2018-10-23 17:21:39 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-23 17:21:39 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-23 17:21:39 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_-logo js-gps-track' is present
+
+2018-10-23 17:21:39 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_-logo js-gps-track' is present
+
+2018-10-23 17:21:39 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Tour' is present on page 
+
+2018-10-23 17:21:41 - [MESSAGE][PASSED] - Text 'Tour' is present on page 
+
+2018-10-23 17:21:41 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'About Us' is present on page 
+
+2018-10-23 17:21:42 - [MESSAGE][PASSED] - Text 'About Us' is present on page 
+
+2018-10-23 17:21:42 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Meta' is present on page 
+
+2018-10-23 17:21:44 - [MESSAGE][PASSED] - Text 'Meta' is present on page 
+
+2018-10-23 17:21:44 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/input_q' is present
+
+2018-10-23 17:21:44 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/input_q' is present
+
+2018-10-23 17:21:44 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Log In' is present on page 
+
+2018-10-23 17:21:46 - [MESSAGE][PASSED] - Text 'Log In' is present on page 
+
+2018-10-23 17:21:46 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Sign Up' is present on page 
+
+2018-10-23 17:21:47 - [MESSAGE][PASSED] - Text 'Sign Up' is present on page 
+
+2018-10-23 17:21:47 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/sectioncontent' is present
+
+2018-10-23 17:21:47 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/sectioncontent' is present
+
+2018-10-23 17:21:47 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Stack Exchange' is present on page 
+
+2018-10-23 17:21:49 - [MESSAGE][PASSED] - Text 'Stack Exchange' is present on page 
+
+2018-10-23 17:21:49 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-23 17:21:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290109161.png]]
+
+2018-10-23 17:21:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-10-23 17:21:49 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-10-23 17:21:50 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/To click the login link: Test Cases/Pages/01_Stack Exchage Homepage/To click the login link
+
+2018-10-23 17:21:50 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-23 17:21:50 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-23 17:21:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_Log In' is clicked on
+
+2018-10-23 17:21:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_Log In' is clicked on
+
+2018-10-23 17:21:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-10-23 17:21:52 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-10-23 17:21:52 - [TEST_CASE][PASSED] - Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully: Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully
+
+2018-10-23 17:21:52 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-23 17:21:52 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-23 17:21:52 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Do you already have an account on one of these sites? Click the logo to' is present on page 
+
+2018-10-23 17:21:53 - [MESSAGE][PASSED] - Text 'Do you already have an account on one of these sites? Click the logo to' is present on page 
+
+2018-10-23 17:21:53 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is present
+
+2018-10-23 17:21:53 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is present
+
+2018-10-23 17:21:53 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_google openid_large_btn' is present
+
+2018-10-23 17:21:53 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_google openid_large_btn' is present
+
+2018-10-23 17:21:53 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_facebook openid_large_btn' is present
+
+2018-10-23 17:21:53 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_facebook openid_large_btn' is present
+
+2018-10-23 17:21:53 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_yahoo openid_large_btn' is present
+
+2018-10-23 17:21:53 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_yahoo openid_large_btn' is present
+
+2018-10-23 17:21:53 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'click here to sign up' is present on page 
+
+2018-10-23 17:21:54 - [MESSAGE][PASSED] - Text 'click here to sign up' is present on page 
+
+2018-10-23 17:21:54 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-23 17:21:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290114061.png]]
+
+2018-10-23 17:21:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-10-23 17:21:54 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/02_Log In Page/To click the log in with stackexchange' successfully
+
+2018-10-23 17:21:54 - [TEST_CASE][PASSED] - Test Cases/Pages/02_Log In Page/To click the log in with stackexchange: Test Cases/Pages/02_Log In Page/To click the log in with stackexchange
+
+2018-10-23 17:21:55 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-23 17:21:55 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-23 17:21:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is clicked on
+
+2018-10-23 17:21:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is clicked on
+
+2018-10-23 17:21:55 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-23 17:22:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-23 17:22:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/02_Log In Page/To click the log in with stackexchange' successfully
+
+2018-10-23 17:22:00 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/iframeaffiliate-signin-iframe'
+
+2018-10-23 17:22:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_affiliate-button' is clicked on
+
+2018-10-23 17:22:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_affiliate-button' is clicked on
+
+2018-10-23 17:22:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/p_Invalid email address' is present
+
+2018-10-23 17:22:01 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/p_Invalid email address' is present
+
+2018-10-23 17:22:01 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-23 17:22:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290121720.png]]
+
+2018-10-23 17:22:02 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-10-23 17:22:02 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-23 17:22:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tests/Log In/TC-SIN-002 Check for empty username" classname="Test Cases/Tests/Log In/TC-SIN-002 Check for empty username" status="PASSED">
+         <system-out><![CDATA[2018-10-23 17:22:05 - [TEST_CASE][PASSED] - Test Cases/Tests/Log In/TC-SIN-002 Check for empty username: Test Cases/Tests/Log In/TC-SIN-002 Check for empty username
+
+2018-10-23 17:22:05 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-23 17:22:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-23 17:22:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-23 17:22:07 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-23 17:22:08 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-23 17:22:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-23 17:22:12 - [MESSAGE][PASSED] - Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-23 17:22:12 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-10-23 17:22:12 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully: Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully
+
+2018-10-23 17:22:12 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_top-bar js-top-bar' is visible
+
+2018-10-23 17:22:12 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_top-bar js-top-bar' is visible
+
+2018-10-23 17:22:12 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-23 17:22:13 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-23 17:22:13 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_-logo js-gps-track' is present
+
+2018-10-23 17:22:13 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_-logo js-gps-track' is present
+
+2018-10-23 17:22:13 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Tour' is present on page 
+
+2018-10-23 17:22:14 - [MESSAGE][PASSED] - Text 'Tour' is present on page 
+
+2018-10-23 17:22:14 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'About Us' is present on page 
+
+2018-10-23 17:22:15 - [MESSAGE][PASSED] - Text 'About Us' is present on page 
+
+2018-10-23 17:22:15 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Meta' is present on page 
+
+2018-10-23 17:22:17 - [MESSAGE][PASSED] - Text 'Meta' is present on page 
+
+2018-10-23 17:22:17 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/input_q' is present
+
+2018-10-23 17:22:17 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/input_q' is present
+
+2018-10-23 17:22:17 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Log In' is present on page 
+
+2018-10-23 17:22:18 - [MESSAGE][PASSED] - Text 'Log In' is present on page 
+
+2018-10-23 17:22:18 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Sign Up' is present on page 
+
+2018-10-23 17:22:19 - [MESSAGE][PASSED] - Text 'Sign Up' is present on page 
+
+2018-10-23 17:22:19 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/sectioncontent' is present
+
+2018-10-23 17:22:19 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/sectioncontent' is present
+
+2018-10-23 17:22:19 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Stack Exchange' is present on page 
+
+2018-10-23 17:22:21 - [MESSAGE][PASSED] - Text 'Stack Exchange' is present on page 
+
+2018-10-23 17:22:21 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-23 17:22:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290141152.png]]
+
+2018-10-23 17:22:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-10-23 17:22:21 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-10-23 17:22:21 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/To click the login link: Test Cases/Pages/01_Stack Exchage Homepage/To click the login link
+
+2018-10-23 17:22:21 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-23 17:22:22 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-23 17:22:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_Log In' is clicked on
+
+2018-10-23 17:23:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_Log In' is clicked on
+
+2018-10-23 17:23:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-10-23 17:23:30 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-10-23 17:23:30 - [TEST_CASE][PASSED] - Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully: Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully
+
+2018-10-23 17:23:30 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-23 17:23:31 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-23 17:23:31 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Do you already have an account on one of these sites? Click the logo to' is present on page 
+
+2018-10-23 17:23:31 - [MESSAGE][PASSED] - Text 'Do you already have an account on one of these sites? Click the logo to' is present on page 
+
+2018-10-23 17:23:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is present
+
+2018-10-23 17:23:31 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is present
+
+2018-10-23 17:23:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_google openid_large_btn' is present
+
+2018-10-23 17:23:31 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_google openid_large_btn' is present
+
+2018-10-23 17:23:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_facebook openid_large_btn' is present
+
+2018-10-23 17:23:31 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_facebook openid_large_btn' is present
+
+2018-10-23 17:23:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_yahoo openid_large_btn' is present
+
+2018-10-23 17:23:32 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_yahoo openid_large_btn' is present
+
+2018-10-23 17:23:32 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'click here to sign up' is present on page 
+
+2018-10-23 17:23:32 - [MESSAGE][PASSED] - Text 'click here to sign up' is present on page 
+
+2018-10-23 17:23:32 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-23 17:23:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290212607.png]]
+
+2018-10-23 17:23:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-10-23 17:23:33 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/02_Log In Page/To click the log in with stackexchange' successfully
+
+2018-10-23 17:23:33 - [TEST_CASE][PASSED] - Test Cases/Pages/02_Log In Page/To click the log in with stackexchange: Test Cases/Pages/02_Log In Page/To click the log in with stackexchange
+
+2018-10-23 17:23:33 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-23 17:23:33 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-23 17:23:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is clicked on
+
+2018-10-23 17:23:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is clicked on
+
+2018-10-23 17:23:33 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-23 17:23:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-23 17:23:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/02_Log In Page/To click the log in with stackexchange' successfully
+
+2018-10-23 17:23:38 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/iframeaffiliate-signin-iframe'
+
+2018-10-23 17:23:38 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_password'
+
+2018-10-23 17:23:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_password'
+
+2018-10-23 17:23:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_affiliate-button' is clicked on
+
+2018-10-23 17:23:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_affiliate-button' is clicked on
+
+2018-10-23 17:23:40 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/p_Invalid email address' is present
+
+2018-10-23 17:23:40 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/p_Invalid email address' is present
+
+2018-10-23 17:23:40 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-23 17:23:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290220814.png]]
+
+2018-10-23 17:23:41 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-10-23 17:23:41 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-23 17:23:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tests/Log In/TC-SIN-003 Check for empty password" classname="Test Cases/Tests/Log In/TC-SIN-003 Check for empty password" status="PASSED">
+         <system-out><![CDATA[2018-10-23 17:23:44 - [TEST_CASE][PASSED] - Test Cases/Tests/Log In/TC-SIN-003 Check for empty password: Test Cases/Tests/Log In/TC-SIN-003 Check for empty password
+
+2018-10-23 17:23:44 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-23 17:23:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-23 17:23:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-23 17:23:46 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-23 17:23:48 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-23 17:23:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-23 17:23:50 - [MESSAGE][PASSED] - Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-23 17:23:51 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-10-23 17:23:51 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully: Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully
+
+2018-10-23 17:23:51 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_top-bar js-top-bar' is visible
+
+2018-10-23 17:23:51 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_top-bar js-top-bar' is visible
+
+2018-10-23 17:23:51 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-23 17:23:51 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-23 17:23:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_-logo js-gps-track' is present
+
+2018-10-23 17:23:51 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_-logo js-gps-track' is present
+
+2018-10-23 17:23:51 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Tour' is present on page 
+
+2018-10-23 17:23:53 - [MESSAGE][PASSED] - Text 'Tour' is present on page 
+
+2018-10-23 17:23:53 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'About Us' is present on page 
+
+2018-10-23 17:23:55 - [MESSAGE][PASSED] - Text 'About Us' is present on page 
+
+2018-10-23 17:23:55 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Meta' is present on page 
+
+2018-10-23 17:23:56 - [MESSAGE][PASSED] - Text 'Meta' is present on page 
+
+2018-10-23 17:23:56 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/input_q' is present
+
+2018-10-23 17:23:56 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/input_q' is present
+
+2018-10-23 17:23:56 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Log In' is present on page 
+
+2018-10-23 17:23:57 - [MESSAGE][PASSED] - Text 'Log In' is present on page 
+
+2018-10-23 17:23:57 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Sign Up' is present on page 
+
+2018-10-23 17:23:59 - [MESSAGE][PASSED] - Text 'Sign Up' is present on page 
+
+2018-10-23 17:23:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/sectioncontent' is present
+
+2018-10-23 17:23:59 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/sectioncontent' is present
+
+2018-10-23 17:23:59 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Stack Exchange' is present on page 
+
+2018-10-23 17:24:00 - [MESSAGE][PASSED] - Text 'Stack Exchange' is present on page 
+
+2018-10-23 17:24:00 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-23 17:24:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290240470.png]]
+
+2018-10-23 17:24:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-10-23 17:24:00 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-10-23 17:24:01 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/To click the login link: Test Cases/Pages/01_Stack Exchage Homepage/To click the login link
+
+2018-10-23 17:24:01 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-23 17:24:01 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-23 17:24:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_Log In' is clicked on
+
+2018-10-23 17:24:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_Log In' is clicked on
+
+2018-10-23 17:24:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-10-23 17:24:02 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-10-23 17:24:02 - [TEST_CASE][PASSED] - Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully: Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully
+
+2018-10-23 17:24:02 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-23 17:24:02 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-23 17:24:02 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Do you already have an account on one of these sites? Click the logo to' is present on page 
+
+2018-10-23 17:24:03 - [MESSAGE][PASSED] - Text 'Do you already have an account on one of these sites? Click the logo to' is present on page 
+
+2018-10-23 17:24:03 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is present
+
+2018-10-23 17:24:03 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is present
+
+2018-10-23 17:24:03 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_google openid_large_btn' is present
+
+2018-10-23 17:24:03 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_google openid_large_btn' is present
+
+2018-10-23 17:24:03 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_facebook openid_large_btn' is present
+
+2018-10-23 17:24:03 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_facebook openid_large_btn' is present
+
+2018-10-23 17:24:03 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_yahoo openid_large_btn' is present
+
+2018-10-23 17:24:03 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_yahoo openid_large_btn' is present
+
+2018-10-23 17:24:03 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'click here to sign up' is present on page 
+
+2018-10-23 17:24:03 - [MESSAGE][PASSED] - Text 'click here to sign up' is present on page 
+
+2018-10-23 17:24:03 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-23 17:24:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290243731.png]]
+
+2018-10-23 17:24:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-10-23 17:24:04 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/02_Log In Page/To click the log in with stackexchange' successfully
+
+2018-10-23 17:24:04 - [TEST_CASE][PASSED] - Test Cases/Pages/02_Log In Page/To click the log in with stackexchange: Test Cases/Pages/02_Log In Page/To click the log in with stackexchange
+
+2018-10-23 17:24:04 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-23 17:24:04 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-23 17:24:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is clicked on
+
+2018-10-23 17:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is clicked on
+
+2018-10-23 17:24:04 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-23 17:24:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-23 17:24:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/02_Log In Page/To click the log in with stackexchange' successfully
+
+2018-10-23 17:24:09 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/iframeaffiliate-signin-iframe'
+
+2018-10-23 17:24:10 - [TEST_STEP][PASSED] - setText: Text 'charnjaroen@gmail.com' is set on object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_email'
+
+2018-10-23 17:24:10 - [MESSAGE][PASSED] - Text 'charnjaroen@gmail.com' is set on object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_email'
+
+2018-10-23 17:24:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_affiliate-button' is clicked on
+
+2018-10-23 17:24:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_affiliate-button' is clicked on
+
+2018-10-23 17:24:10 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/p_Invalid email address' is present
+
+2018-10-23 17:24:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-23 17:24:11 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/p_Invalid email address' is present
+
+2018-10-23 17:24:11 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-23 17:24:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290251541.png]]
+
+2018-10-23 17:24:11 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-10-23 17:24:11 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-23 17:24:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tests/Log In/TC-SIN-004 Check for invalid username" classname="Test Cases/Tests/Log In/TC-SIN-004 Check for invalid username" status="PASSED">
+         <system-out><![CDATA[2018-10-23 17:24:14 - [TEST_CASE][PASSED] - Test Cases/Tests/Log In/TC-SIN-004 Check for invalid username: Test Cases/Tests/Log In/TC-SIN-004 Check for invalid username
+
+2018-10-23 17:24:14 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-23 17:24:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-23 17:24:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-23 17:24:17 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-23 17:24:18 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-23 17:24:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-23 17:24:21 - [MESSAGE][PASSED] - Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-23 17:24:21 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-10-23 17:24:21 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully: Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully
+
+2018-10-23 17:24:22 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_top-bar js-top-bar' is visible
+
+2018-10-23 17:24:22 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_top-bar js-top-bar' is visible
+
+2018-10-23 17:24:22 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-23 17:24:22 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-23 17:24:22 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_-logo js-gps-track' is present
+
+2018-10-23 17:24:22 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_-logo js-gps-track' is present
+
+2018-10-23 17:24:22 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Tour' is present on page 
+
+2018-10-23 17:24:23 - [MESSAGE][PASSED] - Text 'Tour' is present on page 
+
+2018-10-23 17:24:23 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'About Us' is present on page 
+
+2018-10-23 17:24:24 - [MESSAGE][PASSED] - Text 'About Us' is present on page 
+
+2018-10-23 17:24:24 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Meta' is present on page 
+
+2018-10-23 17:24:25 - [MESSAGE][PASSED] - Text 'Meta' is present on page 
+
+2018-10-23 17:24:25 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/input_q' is present
+
+2018-10-23 17:24:25 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/input_q' is present
+
+2018-10-23 17:24:25 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Log In' is present on page 
+
+2018-10-23 17:24:26 - [MESSAGE][PASSED] - Text 'Log In' is present on page 
+
+2018-10-23 17:24:26 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Sign Up' is present on page 
+
+2018-10-23 17:24:28 - [MESSAGE][PASSED] - Text 'Sign Up' is present on page 
+
+2018-10-23 17:24:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/sectioncontent' is present
+
+2018-10-23 17:24:28 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/sectioncontent' is present
+
+2018-10-23 17:24:28 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Stack Exchange' is present on page 
+
+2018-10-23 17:24:29 - [MESSAGE][PASSED] - Text 'Stack Exchange' is present on page 
+
+2018-10-23 17:24:29 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-23 17:24:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290269381.png]]
+
+2018-10-23 17:24:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-10-23 17:24:29 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-10-23 17:24:29 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/To click the login link: Test Cases/Pages/01_Stack Exchage Homepage/To click the login link
+
+2018-10-23 17:24:29 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-23 17:24:29 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-23 17:24:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_Log In' is clicked on
+
+2018-10-23 17:24:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_Log In' is clicked on
+
+2018-10-23 17:24:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-10-23 17:24:31 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-10-23 17:24:31 - [TEST_CASE][PASSED] - Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully: Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully
+
+2018-10-23 17:24:31 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-23 17:24:31 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-23 17:24:31 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Do you already have an account on one of these sites? Click the logo to' is present on page 
+
+2018-10-23 17:24:32 - [MESSAGE][PASSED] - Text 'Do you already have an account on one of these sites? Click the logo to' is present on page 
+
+2018-10-23 17:24:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is present
+
+2018-10-23 17:24:32 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is present
+
+2018-10-23 17:24:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_google openid_large_btn' is present
+
+2018-10-23 17:24:32 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_google openid_large_btn' is present
+
+2018-10-23 17:24:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_facebook openid_large_btn' is present
+
+2018-10-23 17:24:32 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_facebook openid_large_btn' is present
+
+2018-10-23 17:24:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_yahoo openid_large_btn' is present
+
+2018-10-23 17:24:32 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_yahoo openid_large_btn' is present
+
+2018-10-23 17:24:32 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'click here to sign up' is present on page 
+
+2018-10-23 17:24:32 - [MESSAGE][PASSED] - Text 'click here to sign up' is present on page 
+
+2018-10-23 17:24:32 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-23 17:24:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290272942.png]]
+
+2018-10-23 17:24:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-10-23 17:24:33 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/02_Log In Page/To click the log in with stackexchange' successfully
+
+2018-10-23 17:24:33 - [TEST_CASE][PASSED] - Test Cases/Pages/02_Log In Page/To click the log in with stackexchange: Test Cases/Pages/02_Log In Page/To click the log in with stackexchange
+
+2018-10-23 17:24:33 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-23 17:24:33 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-23 17:24:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is clicked on
+
+2018-10-23 17:24:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is clicked on
+
+2018-10-23 17:24:33 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-23 17:24:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-23 17:24:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/02_Log In Page/To click the log in with stackexchange' successfully
+
+2018-10-23 17:24:38 - [TEST_STEP][PASSED] - switchToFrame: Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-23 17:24:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-23 17:24:39 - [TEST_STEP][PASSED] - setText: Text 'charnjaroen' is set on object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_email'
+
+2018-10-23 17:24:39 - [MESSAGE][PASSED] - Text 'charnjaroen' is set on object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_email'
+
+2018-10-23 17:24:39 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_password'
+
+2018-10-23 17:24:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_password'
+
+2018-10-23 17:24:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_affiliate-button' is clicked on
+
+2018-10-23 17:24:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_affiliate-button' is clicked on
+
+2018-10-23 17:24:40 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/p_Invalid email address' is present
+
+2018-10-23 17:24:40 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/p_Invalid email address' is present
+
+2018-10-23 17:24:40 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-23 17:24:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290280620.png]]
+
+2018-10-23 17:24:41 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-10-23 17:24:41 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-23 17:24:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tests/Log In/TC-SIN-005 Check for invalid password" classname="Test Cases/Tests/Log In/TC-SIN-005 Check for invalid password" status="PASSED">
+         <system-out><![CDATA[2018-10-23 17:24:44 - [TEST_CASE][PASSED] - Test Cases/Tests/Log In/TC-SIN-005 Check for invalid password: Test Cases/Tests/Log In/TC-SIN-005 Check for invalid password
+
+2018-10-23 17:24:44 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-23 17:24:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-23 17:24:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-23 17:24:46 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-23 17:24:47 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-23 17:24:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-23 17:24:50 - [MESSAGE][PASSED] - Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-23 17:24:50 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-10-23 17:24:50 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully: Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully
+
+2018-10-23 17:24:50 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_top-bar js-top-bar' is visible
+
+2018-10-23 17:24:51 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_top-bar js-top-bar' is visible
+
+2018-10-23 17:24:51 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-23 17:24:51 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-23 17:24:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_-logo js-gps-track' is present
+
+2018-10-23 17:24:51 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_-logo js-gps-track' is present
+
+2018-10-23 17:24:51 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Tour' is present on page 
+
+2018-10-23 17:24:52 - [MESSAGE][PASSED] - Text 'Tour' is present on page 
+
+2018-10-23 17:24:52 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'About Us' is present on page 
+
+2018-10-23 17:24:53 - [MESSAGE][PASSED] - Text 'About Us' is present on page 
+
+2018-10-23 17:24:53 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Meta' is present on page 
+
+2018-10-23 17:24:54 - [MESSAGE][PASSED] - Text 'Meta' is present on page 
+
+2018-10-23 17:24:54 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/input_q' is present
+
+2018-10-23 17:24:54 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/input_q' is present
+
+2018-10-23 17:24:54 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Log In' is present on page 
+
+2018-10-23 17:24:56 - [MESSAGE][PASSED] - Text 'Log In' is present on page 
+
+2018-10-23 17:24:56 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Sign Up' is present on page 
+
+2018-10-23 17:24:57 - [MESSAGE][PASSED] - Text 'Sign Up' is present on page 
+
+2018-10-23 17:24:57 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/sectioncontent' is present
+
+2018-10-23 17:24:57 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/sectioncontent' is present
+
+2018-10-23 17:24:57 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Stack Exchange' is present on page 
+
+2018-10-23 17:24:58 - [MESSAGE][PASSED] - Text 'Stack Exchange' is present on page 
+
+2018-10-23 17:24:58 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-23 17:24:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290298804.png]]
+
+2018-10-23 17:24:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-10-23 17:24:59 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-10-23 17:24:59 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/To click the login link: Test Cases/Pages/01_Stack Exchage Homepage/To click the login link
+
+2018-10-23 17:24:59 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-23 17:24:59 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-23 17:24:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_Log In' is clicked on
+
+2018-10-23 17:25:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_Log In' is clicked on
+
+2018-10-23 17:25:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-10-23 17:25:00 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-10-23 17:25:00 - [TEST_CASE][PASSED] - Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully: Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully
+
+2018-10-23 17:25:00 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-23 17:25:00 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-23 17:25:00 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Do you already have an account on one of these sites? Click the logo to' is present on page 
+
+2018-10-23 17:25:01 - [MESSAGE][PASSED] - Text 'Do you already have an account on one of these sites? Click the logo to' is present on page 
+
+2018-10-23 17:25:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is present
+
+2018-10-23 17:25:01 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is present
+
+2018-10-23 17:25:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_google openid_large_btn' is present
+
+2018-10-23 17:25:01 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_google openid_large_btn' is present
+
+2018-10-23 17:25:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_facebook openid_large_btn' is present
+
+2018-10-23 17:25:01 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_facebook openid_large_btn' is present
+
+2018-10-23 17:25:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_yahoo openid_large_btn' is present
+
+2018-10-23 17:25:01 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_yahoo openid_large_btn' is present
+
+2018-10-23 17:25:01 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'click here to sign up' is present on page 
+
+2018-10-23 17:25:01 - [MESSAGE][PASSED] - Text 'click here to sign up' is present on page 
+
+2018-10-23 17:25:01 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-23 17:25:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290301989.png]]
+
+2018-10-23 17:25:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-10-23 17:25:02 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/02_Log In Page/To click the log in with stackexchange' successfully
+
+2018-10-23 17:25:02 - [TEST_CASE][PASSED] - Test Cases/Pages/02_Log In Page/To click the log in with stackexchange: Test Cases/Pages/02_Log In Page/To click the log in with stackexchange
+
+2018-10-23 17:25:02 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-23 17:25:02 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-23 17:25:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is clicked on
+
+2018-10-23 17:25:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is clicked on
+
+2018-10-23 17:25:02 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-23 17:25:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-23 17:25:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/02_Log In Page/To click the log in with stackexchange' successfully
+
+2018-10-23 17:25:07 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/iframeaffiliate-signin-iframe'
+
+2018-10-23 17:25:07 - [TEST_STEP][PASSED] - setText: Text 'charnjaroen@gmail.com' is set on object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_email'
+
+2018-10-23 17:25:08 - [MESSAGE][PASSED] - Text 'charnjaroen@gmail.com' is set on object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_email'
+
+2018-10-23 17:25:08 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_password'
+
+2018-10-23 17:25:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_password'
+
+2018-10-23 17:25:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_affiliate-button' is clicked on
+
+2018-10-23 17:25:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_affiliate-button' is clicked on
+
+2018-10-23 17:25:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/p_Invalid email address' is present
+
+2018-10-23 17:25:09 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/p_Invalid email address' is present
+
+2018-10-23 17:25:09 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-23 17:25:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290309616.png]]
+
+2018-10-23 17:25:09 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-10-23 17:25:09 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-23 17:25:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tests/Log In/TC-SIN-006 Check for valid username and password vai stackexchange - Copy" classname="Test Cases/Tests/Log In/TC-SIN-006 Check for valid username and password vai stackexchange - Copy" status="PASSED">
+         <system-out><![CDATA[2018-10-23 17:25:13 - [TEST_CASE][PASSED] - Test Cases/Tests/Log In/TC-SIN-006 Check for valid username and password vai stackexchange - Copy: Test Cases/Tests/Log In/TC-SIN-006 Check for valid username and password vai stackexchange - Copy
+
+2018-10-23 17:25:13 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-23 17:25:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-23 17:25:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-23 17:25:15 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-23 17:25:16 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-23 17:25:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-23 17:25:19 - [MESSAGE][PASSED] - Navigate to 'https://stackexchange.com/' successfully
+
+2018-10-23 17:25:19 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-10-23 17:25:19 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully: Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully
+
+2018-10-23 17:25:19 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_top-bar js-top-bar' is visible
+
+2018-10-23 17:25:19 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_top-bar js-top-bar' is visible
+
+2018-10-23 17:25:19 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-23 17:25:19 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-23 17:25:19 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_-logo js-gps-track' is present
+
+2018-10-23 17:25:19 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_-logo js-gps-track' is present
+
+2018-10-23 17:25:19 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Tour' is present on page 
+
+2018-10-23 17:25:21 - [MESSAGE][PASSED] - Text 'Tour' is present on page 
+
+2018-10-23 17:25:21 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'About Us' is present on page 
+
+2018-10-23 17:25:22 - [MESSAGE][PASSED] - Text 'About Us' is present on page 
+
+2018-10-23 17:25:22 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Meta' is present on page 
+
+2018-10-23 17:25:23 - [MESSAGE][PASSED] - Text 'Meta' is present on page 
+
+2018-10-23 17:25:23 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/input_q' is present
+
+2018-10-23 17:25:23 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/input_q' is present
+
+2018-10-23 17:25:23 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Log In' is present on page 
+
+2018-10-23 17:25:24 - [MESSAGE][PASSED] - Text 'Log In' is present on page 
+
+2018-10-23 17:25:24 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Sign Up' is present on page 
+
+2018-10-23 17:25:25 - [MESSAGE][PASSED] - Text 'Sign Up' is present on page 
+
+2018-10-23 17:25:25 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/sectioncontent' is present
+
+2018-10-23 17:25:25 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/sectioncontent' is present
+
+2018-10-23 17:25:25 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Stack Exchange' is present on page 
+
+2018-10-23 17:25:26 - [MESSAGE][PASSED] - Text 'Stack Exchange' is present on page 
+
+2018-10-23 17:25:26 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-23 17:25:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290326596.png]]
+
+2018-10-23 17:25:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/The Homepage is loaded successfully' successfully
+
+2018-10-23 17:25:27 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-10-23 17:25:27 - [TEST_CASE][PASSED] - Test Cases/Pages/01_Stack Exchage Homepage/To click the login link: Test Cases/Pages/01_Stack Exchage Homepage/To click the login link
+
+2018-10-23 17:25:27 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-23 17:25:27 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/header_siteHeader' is visible
+
+2018-10-23 17:25:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_Log In' is clicked on
+
+2018-10-23 17:25:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_StackExchangeHome/a_Log In' is clicked on
+
+2018-10-23 17:25:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/01_Stack Exchage Homepage/To click the login link' successfully
+
+2018-10-23 17:25:28 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-10-23 17:25:28 - [TEST_CASE][PASSED] - Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully: Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully
+
+2018-10-23 17:25:28 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-23 17:25:28 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-23 17:25:28 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Do you already have an account on one of these sites? Click the logo to' is present on page 
+
+2018-10-23 17:25:29 - [MESSAGE][PASSED] - Text 'Do you already have an account on one of these sites? Click the logo to' is present on page 
+
+2018-10-23 17:25:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is present
+
+2018-10-23 17:25:29 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is present
+
+2018-10-23 17:25:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_google openid_large_btn' is present
+
+2018-10-23 17:25:29 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_google openid_large_btn' is present
+
+2018-10-23 17:25:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_facebook openid_large_btn' is present
+
+2018-10-23 17:25:29 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_facebook openid_large_btn' is present
+
+2018-10-23 17:25:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Test Objects/Pages/Page_Log In/a_yahoo openid_large_btn' is present
+
+2018-10-23 17:25:29 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/a_yahoo openid_large_btn' is present
+
+2018-10-23 17:25:29 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'click here to sign up' is present on page 
+
+2018-10-23 17:25:29 - [MESSAGE][PASSED] - Text 'click here to sign up' is present on page 
+
+2018-10-23 17:25:29 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-23 17:25:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290329916.png]]
+
+2018-10-23 17:25:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/02_Log In Page/The Log In Page is loaded successfully' successfully
+
+2018-10-23 17:25:30 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/02_Log In Page/To click the log in with stackexchange' successfully
+
+2018-10-23 17:25:30 - [TEST_CASE][PASSED] - Test Cases/Pages/02_Log In Page/To click the log in with stackexchange: Test Cases/Pages/02_Log In Page/To click the log in with stackexchange
+
+2018-10-23 17:25:30 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-23 17:25:30 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_Log In/header_siteHeader' is visible
+
+2018-10-23 17:25:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is clicked on
+
+2018-10-23 17:25:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log In/a_stack_exchange openid_large_' is clicked on
+
+2018-10-23 17:25:30 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-23 17:25:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-23 17:25:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/02_Log In Page/To click the log in with stackexchange' successfully
+
+2018-10-23 17:25:35 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/iframeaffiliate-signin-iframe'
+
+2018-10-23 17:25:35 - [TEST_STEP][PASSED] - setText: Text 'charnjaroen@gmail.com' is set on object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_email'
+
+2018-10-23 17:25:37 - [MESSAGE][PASSED] - Text 'charnjaroen@gmail.com' is set on object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_email'
+
+2018-10-23 17:25:37 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_password'
+
+2018-10-23 17:25:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_password'
+
+2018-10-23 17:25:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_affiliate-button' is clicked on
+
+2018-10-23 17:25:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log In/iFrame/Page_Log In/input_affiliate-button' is clicked on
+
+2018-10-23 17:25:37 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-10-23 17:25:47 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-10-23 17:25:47 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2018-10-23 17:25:47 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/03_Dashboard Page/The Dashboard Page is loaded successfully' successfully
+
+2018-10-23 17:25:47 - [TEST_CASE][PASSED] - Test Cases/Pages/03_Dashboard Page/The Dashboard Page is loaded successfully: Test Cases/Pages/03_Dashboard Page/The Dashboard Page is loaded successfully
+
+2018-10-23 17:25:48 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/header_Stack Exchange' is visible
+
+2018-10-23 17:25:48 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/header_Stack Exchange' is visible
+
+2018-10-23 17:25:48 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Tour' is present on page 
+
+2018-10-23 17:25:49 - [MESSAGE][PASSED] - Text 'Tour' is present on page 
+
+2018-10-23 17:25:49 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'About Us' is present on page 
+
+2018-10-23 17:25:50 - [MESSAGE][PASSED] - Text 'About Us' is present on page 
+
+2018-10-23 17:25:50 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Meta' is present on page 
+
+2018-10-23 17:25:51 - [MESSAGE][PASSED] - Text 'Meta' is present on page 
+
+2018-10-23 17:25:51 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/a_Meta_my-profile js-gps-track' is visible
+
+2018-10-23 17:25:51 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/a_Meta_my-profile js-gps-track' is visible
+
+2018-10-23 17:25:51 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/a_Meta_-link js-inbox-button' is visible
+
+2018-10-23 17:25:51 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/a_Meta_-link js-inbox-button' is visible
+
+2018-10-23 17:25:51 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/a_Meta_-link js-achievements-b' is visible
+
+2018-10-23 17:25:51 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/a_Meta_-link js-achievements-b' is visible
+
+2018-10-23 17:25:51 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/a_Meta_-link js-site-switcher-' is visible
+
+2018-10-23 17:25:51 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/a_Meta_-link js-site-switcher-' is visible
+
+2018-10-23 17:25:51 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-23 17:25:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290351919.png]]
+
+2018-10-23 17:25:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/03_Dashboard Page/The Dashboard Page is loaded successfully' successfully
+
+2018-10-23 17:25:52 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/03_Dashboard Page/To click the user profile' successfully
+
+2018-10-23 17:25:52 - [TEST_CASE][PASSED] - Test Cases/Pages/03_Dashboard Page/To click the user profile: Test Cases/Pages/03_Dashboard Page/To click the user profile
+
+2018-10-23 17:25:52 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/header_Stack Exchange' is visible
+
+2018-10-23 17:25:52 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/header_Stack Exchange' is visible
+
+2018-10-23 17:25:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/a_Meta_my-profile js-gps-track' is clicked on
+
+2018-10-23 17:25:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/a_Meta_my-profile js-gps-track' is clicked on
+
+2018-10-23 17:25:53 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-23 17:25:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-23 17:25:58 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Test Objects/Pages/Page_User_Stack Exchange/a_account14581415' is visible
+
+2018-10-23 17:25:59 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_User_Stack Exchange/a_account14581415' is visible
+
+2018-10-23 17:25:59 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-10-23 17:25:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Ronnachai C\\Katalon Studio\\StackexchangeDemo\\Reports\\Login\\Login Test Suite\\20181023_172116\\1540290359046.png]]
+
+2018-10-23 17:25:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/03_Dashboard Page/To click the user profile' successfully
+
+2018-10-23 17:25:59 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Pages/03_Dashboard Page/To click the logout link' successfully
+
+2018-10-23 17:25:59 - [TEST_CASE][PASSED] - Test Cases/Pages/03_Dashboard Page/To click the logout link: Test Cases/Pages/03_Dashboard Page/To click the logout link
+
+2018-10-23 17:25:59 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/header_Stack Exchange' is visible
+
+2018-10-23 17:25:59 - [MESSAGE][PASSED] - Object 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/header_Stack Exchange' is visible
+
+2018-10-23 17:25:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/a_Meta_-link js-site-switcher-' is clicked on
+
+2018-10-23 17:26:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_LoginSuccess_Stack Exchange/a_Meta_-link js-site-switcher-' is clicked on
+
+2018-10-23 17:26:00 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-10-23 17:26:10 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-10-23 17:26:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log Out/a_log out' is clicked on
+
+2018-10-23 17:26:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log Out/a_log out' is clicked on
+
+2018-10-23 17:26:11 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-10-23 17:26:11 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-10-23 17:26:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log Out/input_superuser.com_everywhere' is clicked on
+
+2018-10-23 17:26:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log Out/input_superuser.com_everywhere' is clicked on
+
+2018-10-23 17:26:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Objects/Pages/Page_Log Out/input_cancel_fr' is clicked on
+
+2018-10-23 17:26:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Objects/Pages/Page_Log Out/input_cancel_fr' is clicked on
+
+2018-10-23 17:26:12 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-10-23 17:26:27 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-10-23 17:26:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/03_Dashboard Page/To click the logout link' successfully
+
+2018-10-23 17:26:27 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2018-10-23 17:26:27 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-23 17:26:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-23 17:21:25 - [TEST_SUITE][PASSED] - Login Test Suite: Test Cases/Tests/Log In/TC-SIN-006 Check for valid username and password vai stackexchange - Copy]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

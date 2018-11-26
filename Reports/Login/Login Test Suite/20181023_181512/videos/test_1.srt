@@ -1,0 +1,148 @@
+1
+00:00:00,928 --> 00:00:00,934
+1. callTestCase
+
+2
+00:00:01,711 --> 00:00:01,715
+1. waitForElementVisible
+
+3
+00:00:02,105 --> 00:00:02,107
+5. waitForElementVisible
+
+4
+00:00:02,298 --> 00:00:02,301
+9. verifyElementPresent
+
+5
+00:00:02,423 --> 00:00:02,428
+13. verifyTextPresent
+
+6
+00:00:06,124 --> 00:00:06,126
+17. verifyTextPresent
+
+7
+00:00:09,908 --> 00:00:09,910
+21. verifyTextPresent
+
+8
+00:00:13,641 --> 00:00:13,644
+25. verifyElementPresent
+
+9
+00:00:13,743 --> 00:00:13,745
+29. verifyTextPresent
+
+10
+00:00:17,447 --> 00:00:17,449
+33. verifyTextPresent
+
+11
+00:00:21,388 --> 00:00:21,395
+37. verifyElementPresent
+
+12
+00:00:21,494 --> 00:00:21,497
+41. verifyTextPresent
+
+13
+00:00:25,039 --> 00:00:25,042
+45. takeScreenshot
+
+14
+00:00:25,252 --> 00:00:25,256
+5. callTestCase
+
+15
+00:00:25,660 --> 00:00:25,661
+1. waitForElementVisible
+
+16
+00:00:25,793 --> 00:00:25,795
+5. click
+
+17
+00:00:27,117 --> 00:00:27,119
+9. callTestCase
+
+18
+00:00:27,639 --> 00:00:27,641
+1. waitForElementVisible
+
+19
+00:00:27,756 --> 00:00:27,758
+5. verifyTextPresent
+
+20
+00:00:28,832 --> 00:00:28,834
+9. verifyElementPresent
+
+21
+00:00:28,900 --> 00:00:28,903
+13. verifyElementPresent
+
+22
+00:00:28,947 --> 00:00:28,948
+17. verifyElementPresent
+
+23
+00:00:28,990 --> 00:00:28,993
+21. verifyElementPresent
+
+24
+00:00:29,038 --> 00:00:29,039
+25. verifyTextPresent
+
+25
+00:00:30,361 --> 00:00:30,363
+29. takeScreenshot
+
+26
+00:00:30,526 --> 00:00:30,530
+13. callTestCase
+
+27
+00:00:31,252 --> 00:00:31,256
+1. waitForElementVisible
+
+28
+00:00:31,459 --> 00:00:31,461
+5. click
+
+29
+00:00:31,682 --> 00:00:31,683
+9. delay
+
+30
+00:00:36,733 --> 00:00:36,734
+17. switchToFrame
+
+31
+00:00:36,814 --> 00:00:36,816
+21. click
+
+32
+00:00:37,572 --> 00:00:37,573
+25. verifyElementPresent
+
+33
+00:01:08,336 --> 00:01:08,338
+29. takeScreenshot
+
+34
+00:01:08,395 --> 00:01:08,396
+1. closeBrowser
+
+35
+00:01:19,556 --> 00:01:19,557
+1. openBrowser
+
+36
+00:01:25,954 --> 00:01:25,955
+5. maximizeWindow
+
+37
+00:01:29,552 --> 00:01:29,553
+9. navigateToUrl
+

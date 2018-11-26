@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>The Homepage is loaded successfully</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fbf5e65d-3955-421e-9d61-503b73f14b6a</testCaseGuid>
+   <variable>
+      <defaultValue>'Hot Questions - Stack Exchange'</defaultValue>
+      <description></description>
+      <id>1b5a0d9e-851c-411b-a839-2f0cca04acf8</id>
+      <masked>false</masked>
+      <name>expected_pagetitle</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>14ba4d08-d6f9-4678-a1a7-55e61403a479</id>
+      <masked>false</masked>
+      <name>actual_pagetitle</name>
+   </variable>
+</TestCaseEntity>

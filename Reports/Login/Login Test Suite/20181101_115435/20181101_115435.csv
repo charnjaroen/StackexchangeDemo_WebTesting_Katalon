@@ -1,0 +1,73 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login Test Suite,Firefox 62.0,,2018-11-01 12:03:16,2018-11-01 12:10:29,7m - 13.746s,PASSED
+,,,,,,
+Test Cases/Tests/Log In/TC-SIN-001 Check for empty username and password,Firefox 62.0,,2018-11-01 12:03:16,2018-11-01 12:04:28,1m - 11.257s,PASSED
+Start listener action : beforeTestcase,Firefox 62.0,,2018-11-01 12:03:16,2018-11-01 12:03:40,23.794s,PASSED
+callTestCase,Firefox 62.0,,2018-11-01 12:03:41,2018-11-01 12:04:10,29.498s,PASSED
+callTestCase,Firefox 62.0,,2018-11-01 12:04:10,2018-11-01 12:04:13,3.191s,PASSED
+callTestCase,Firefox 62.0,,2018-11-01 12:04:13,2018-11-01 12:04:15,1.153s,PASSED
+click,Firefox 62.0,,2018-11-01 12:04:15,2018-11-01 12:04:15,0.304s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-11-01 12:04:15,2018-11-01 12:04:15,0.588s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-11-01 12:04:15,2018-11-01 12:04:16,0.047s,PASSED
+takeScreenshot,Firefox 62.0,,2018-11-01 12:04:16,2018-11-01 12:04:16,0.138s,PASSED
+Start listener action : afterTestcase,Firefox 62.0,,2018-11-01 12:04:16,2018-11-01 12:04:25,9.701s,PASSED
+,,,,,,
+Test Cases/Tests/Log In/TC-SIN-002 Check for empty username,Firefox 62.0,,2018-11-01 12:04:28,2018-11-01 12:05:35,1m - 7.558s,PASSED
+Start listener action : beforeTestcase,Firefox 62.0,,2018-11-01 12:04:28,2018-11-01 12:04:42,14.073s,PASSED
+callTestCase,Firefox 62.0,,2018-11-01 12:04:42,2018-11-01 12:05:14,32.248s,PASSED
+callTestCase,Firefox 62.0,,2018-11-01 12:05:14,2018-11-01 12:05:21,6.171s,PASSED
+callTestCase,Firefox 62.0,,2018-11-01 12:05:21,2018-11-01 12:05:21,0.876s,PASSED
+setEncryptedText,Firefox 62.0,,2018-11-01 12:05:21,2018-11-01 12:05:22,0.377s,PASSED
+click,Firefox 62.0,,2018-11-01 12:05:22,2018-11-01 12:05:22,0.399s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-11-01 12:05:22,2018-11-01 12:05:23,1.060s,PASSED
+takeScreenshot,Firefox 62.0,,2018-11-01 12:05:23,2018-11-01 12:05:23,0.123s,PASSED
+Start listener action : afterTestcase,Firefox 62.0,,2018-11-01 12:05:23,2018-11-01 12:05:33,9.579s,PASSED
+,,,,,,
+Test Cases/Tests/Log In/TC-SIN-003 Check for empty password,Firefox 62.0,,2018-11-01 12:05:35,2018-11-01 12:06:43,1m - 8.120s,PASSED
+Start listener action : beforeTestcase,Firefox 62.0,,2018-11-01 12:05:35,2018-11-01 12:05:49,14.064s,PASSED
+callTestCase,Firefox 62.0,,2018-11-01 12:05:50,2018-11-01 12:06:26,36.516s,PASSED
+callTestCase,Firefox 62.0,,2018-11-01 12:06:26,2018-11-01 12:06:29,2.930s,PASSED
+callTestCase,Firefox 62.0,,2018-11-01 12:06:29,2018-11-01 12:06:30,0.786s,PASSED
+setText,Firefox 62.0,,2018-11-01 12:06:30,2018-11-01 12:06:30,0.170s,PASSED
+click,Firefox 62.0,,2018-11-01 12:06:30,2018-11-01 12:06:30,0.304s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-11-01 12:06:30,2018-11-01 12:06:31,1.063s,PASSED
+takeScreenshot,Firefox 62.0,,2018-11-01 12:06:31,2018-11-01 12:06:32,0.180s,PASSED
+Start listener action : afterTestcase,Firefox 62.0,,2018-11-01 12:06:32,2018-11-01 12:06:41,9.498s,PASSED
+,,,,,,
+Test Cases/Tests/Log In/TC-SIN-004 Check for invalid username,Firefox 62.0,,2018-11-01 12:06:43,2018-11-01 12:07:46,1m - 2.756s,PASSED
+Start listener action : beforeTestcase,Firefox 62.0,,2018-11-01 12:06:43,2018-11-01 12:06:56,13.084s,PASSED
+callTestCase,Firefox 62.0,,2018-11-01 12:06:57,2018-11-01 12:07:29,31.982s,PASSED
+callTestCase,Firefox 62.0,,2018-11-01 12:07:29,2018-11-01 12:07:32,2.993s,PASSED
+callTestCase,Firefox 62.0,,2018-11-01 12:07:32,2018-11-01 12:07:32,0.703s,PASSED
+setText,Firefox 62.0,,2018-11-01 12:07:32,2018-11-01 12:07:32,0.139s,PASSED
+setEncryptedText,Firefox 62.0,,2018-11-01 12:07:32,2018-11-01 12:07:33,0.170s,PASSED
+click,Firefox 62.0,,2018-11-01 12:07:33,2018-11-01 12:07:33,0.358s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-11-01 12:07:33,2018-11-01 12:07:34,1.079s,PASSED
+takeScreenshot,Firefox 62.0,,2018-11-01 12:07:34,2018-11-01 12:07:34,0.186s,PASSED
+Start listener action : afterTestcase,Firefox 62.0,,2018-11-01 12:07:34,2018-11-01 12:07:44,9.602s,PASSED
+,,,,,,
+Test Cases/Tests/Log In/TC-SIN-005 Check for invalid password,Firefox 62.0,,2018-11-01 12:07:46,2018-11-01 12:08:49,1m - 2.964s,PASSED
+Start listener action : beforeTestcase,Firefox 62.0,,2018-11-01 12:07:46,2018-11-01 12:08:00,14.478s,PASSED
+callTestCase,Firefox 62.0,,2018-11-01 12:08:01,2018-11-01 12:08:31,29.864s,PASSED
+callTestCase,Firefox 62.0,,2018-11-01 12:08:31,2018-11-01 12:08:34,2.923s,PASSED
+callTestCase,Firefox 62.0,,2018-11-01 12:08:34,2018-11-01 12:08:35,1.058s,PASSED
+setText,Firefox 62.0,,2018-11-01 12:08:35,2018-11-01 12:08:35,0.267s,PASSED
+setEncryptedText,Firefox 62.0,,2018-11-01 12:08:35,2018-11-01 12:08:35,0.169s,PASSED
+click,Firefox 62.0,,2018-11-01 12:08:35,2018-11-01 12:08:36,0.381s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-11-01 12:08:36,2018-11-01 12:08:37,1.638s,PASSED
+takeScreenshot,Firefox 62.0,,2018-11-01 12:08:37,2018-11-01 12:08:37,0.153s,PASSED
+Start listener action : afterTestcase,Firefox 62.0,,2018-11-01 12:08:37,2018-11-01 12:08:47,9.488s,PASSED
+,,,,,,
+Test Cases/Tests/Log In/TC-SIN-006 Check for valid username and password via stackexchange,Firefox 62.0,,2018-11-01 12:08:49,2018-11-01 12:10:29,1m - 40.316s,PASSED
+Start listener action : beforeTestcase,Firefox 62.0,,2018-11-01 12:08:49,2018-11-01 12:09:03,13.852s,PASSED
+callTestCase,Firefox 62.0,,2018-11-01 12:09:03,2018-11-01 12:09:36,32.422s,PASSED
+callTestCase,Firefox 62.0,,2018-11-01 12:09:36,2018-11-01 12:09:39,3.166s,PASSED
+callTestCase,Firefox 62.0,,2018-11-01 12:09:39,2018-11-01 12:09:40,0.837s,PASSED
+setText,Firefox 62.0,,2018-11-01 12:09:40,2018-11-01 12:09:40,0.724s,PASSED
+setEncryptedText,Firefox 62.0,,2018-11-01 12:09:40,2018-11-01 12:09:41,0.177s,PASSED
+click,Firefox 62.0,,2018-11-01 12:09:41,2018-11-01 12:09:41,0.344s,PASSED
+delay,Firefox 62.0,,2018-11-01 12:09:41,2018-11-01 12:09:51,10.041s,PASSED
+callTestCase,Firefox 62.0,,2018-11-01 12:09:51,2018-11-01 12:10:03,12.057s,PASSED
+callTestCase,Firefox 62.0,,2018-11-01 12:10:03,2018-11-01 12:10:03,0.017s,NOT_RUN
+callTestCase,Firefox 62.0,,2018-11-01 12:10:03,2018-11-01 12:10:17,14.362s,PASSED
+Start listener action : afterTestcase,Firefox 62.0,,2018-11-01 12:10:17,2018-11-01 12:10:27,9.542s,PASSED

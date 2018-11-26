@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-SIN-002 Check for empty username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fbc93e95-f077-4a20-98a1-cd61620e492c</testCaseGuid>
+</TestCaseEntity>

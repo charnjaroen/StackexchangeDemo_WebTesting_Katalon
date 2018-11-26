@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>The Log In Page is loaded successfully</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6c28b821-016d-4a41-83b2-e82c0fdfdfc0</testCaseGuid>
+   <variable>
+      <defaultValue>'Log In - Meta Stack Exchange'</defaultValue>
+      <description></description>
+      <id>2b0a3f76-aa01-47de-8aec-8ddee5c3f85f</id>
+      <masked>false</masked>
+      <name>expected_pagetitle</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fbfdab74-a267-4710-a553-6a4d0b5c6484</id>
+      <masked>false</masked>
+      <name>actual_pagetitle</name>
+   </variable>
+</TestCaseEntity>
